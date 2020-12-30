@@ -4,6 +4,7 @@
              xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
              xmlns:models="clr-namespace:LacosDaGI.Models"
              xmlns:behaviors="clr-namespace:LacosDaGI.Behaviors"
+             xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              x:Class="LacosDaGI.Views.LaceView" Title="Laços da GI - Gerenciar laços">
     <ContentPage.BindingContext>
         <models:LaceViewModel />
@@ -39,7 +40,7 @@
                                     <RowDefinition Height="20" />
                                 </Grid.RowDefinitions>
 
-                                <Image Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Aspect="AspectFill" Source="{Binding Image, Converter={StaticResource Base64ToImage}}" />
+                                <ff:CachedImage Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Aspect="AspectFill" WidthRequest="200" HeightRequest="100" Source="{Binding Image, Converter={StaticResource Base64ToImage}}" />
 
                                 <Label FontAttributes="Bold" Grid.Column="0" Grid.Row="1">
                                     <Label.FormattedText>

@@ -1,6 +1,7 @@
 ﻿using LacosDaGI.DataModels;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Text;
 
@@ -11,13 +12,9 @@ namespace LacosDaGI.Models
         public LaceViewModel()
         {
             InitializeMethods();
+            Laces = new ObservableCollection<Lace>();
         }
 
-        private Lace[] _Laces;
-        public Lace[] Laces
-        {
-            get => _Laces;
-            set => Set(ref _Laces, value);
-        }
+       public ObservableCollection<Lace> Laces { get; set; }
     }
 }

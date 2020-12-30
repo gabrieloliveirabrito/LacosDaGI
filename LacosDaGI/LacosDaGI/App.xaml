@@ -11,10 +11,12 @@
             <Color x:Key="PrimaryLightMainColor">#d45dd4</Color>
             <Color x:Key="SecondaryLightMainColor">#c456c4</Color>
             <Color x:Key="BackgroundLightColor">White</Color>
+            <Color x:Key="PrimaryLightTextColor">Black</Color>
 
             <Color x:Key="PrimaryDarkMainColor">#9e429e</Color>
             <Color x:Key="SecondaryDarkMainColor">#7d397d</Color>
             <Color x:Key="BackgroundDarkColor">Black</Color>
+            <Color x:Key="PrimaryDarkTextColor">White</Color>
         </ResourceDictionary>
 
         <Style TargetType="Page" ApplyToDerivedTypes="True">
@@ -41,10 +43,13 @@
             <Setter Property="PlaceholderColor" Value="Gray" />
         </Style>
 
-        <Style TargetType="iconize:IconImage">
-            <Setter Property="VerticalOptions" Value="CenterAndExpand" />
-            <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
-            <Setter Property="Background" Value="Black" />
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource PrimaryLightTextColor}, Dark={StaticResource PrimaryDarkTextColor}}" />
+        </Style>
+
+        <Style TargetType="Image">
+            <Setter Property="WidthRequest" Value="100" />
+            <Setter Property="HeightRequest" Value="{Binding WidthRequest, Source={RelativeSource Self}}" />
         </Style>
     </Application.Resources>
 </Application>
