@@ -11,11 +11,6 @@ namespace LacosDaGI.Models
         public LaceViewModel()
         {
             InitializeMethods();
-            Laces = new Lace[]
-            {
-                new Lace { Id = 0, Name = "Teste 1" },
-                new Lace { Id = 1, Name = "Teste 2" },
-            };
         }
 
         private Lace[] _Laces;

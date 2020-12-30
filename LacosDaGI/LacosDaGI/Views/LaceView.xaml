@@ -3,34 +3,58 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
              xmlns:models="clr-namespace:LacosDaGI.Models"
-             x:Class="LacosDaGI.Views.LaceView">
+             xmlns:behaviors="clr-namespace:LacosDaGI.Behaviors"
+             x:Class="LacosDaGI.Views.LaceView" Title="Laços da GI - Gerenciar laços">
     <ContentPage.BindingContext>
         <models:LaceViewModel />
     </ContentPage.BindingContext>
+    <ContentPage.Behaviors>
+        <behaviors:EventToCommandBehavior EventName="Appearing" Command="{Binding InitializeCommand}" />
+    </ContentPage.Behaviors>
     <ContentPage.Content>
-        <StackLayout>
-            <flv:FlowListView FlowItemsSource="{Binding Laces}" FlowColumnCount="2" HasUnevenRows="False">
-                <flv:FlowListView.FlowColumnTemplate>
-                    <DataTemplate>
-                        <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="30" />
-                                <ColumnDefinition Width="*" />
-                            </Grid.ColumnDefinitions>
+        <StackLayout Padding="10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="120" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
 
-                            <Label FontAttributes="Bold" Grid.Column="0">
-                                <Label.FormattedText>
-                                    <FormattedString>
-                                        <Span Text="#" />
-                                        <Span Text="{Binding Id}" />
-                                    </FormattedString>
-                                </Label.FormattedText>
-                            </Label>
-                            <Label Text="{Binding Name}" Grid.Column="1" />
-                        </Grid>
-                    </DataTemplate>
-                </flv:FlowListView.FlowColumnTemplate>
-            </flv:FlowListView>
+                <Entry Grid.Row="0" Grid.Column="0" Placeholder="Pesquisar pelo nome do laço" HorizontalOptions="FillAndExpand" Margin="10,0,5,0" />
+                <Button Text="Pesquisar" Grid.Row="0" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="0,0,10,0" />
+
+                <flv:FlowListView FlowItemsSource="{Binding Laces}" FlowColumnCount="2" HasUnevenRows="True" VerticalScrollBarVisibility="Always" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
+                    <flv:FlowListView.FlowColumnTemplate>
+                        <DataTemplate>
+                            <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="10,5,10,5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="30" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="20" />
+                                </Grid.RowDefinitions>
+
+                                <Image Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Aspect="AspectFill" Source="{Binding Image, Converter={StaticResource Base64ToImage}}" />
+
+                                <Label FontAttributes="Bold" Grid.Column="0" Grid.Row="1">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="#" />
+                                            <Span Text="{Binding Id}" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                                <Label HorizontalTextAlignment="Center" Text="{Binding Name}" Grid.Column="1" Grid.Row="1" />
+                            </Grid>
+                        </DataTemplate>
+                    </flv:FlowListView.FlowColumnTemplate>
+                </flv:FlowListView>
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
