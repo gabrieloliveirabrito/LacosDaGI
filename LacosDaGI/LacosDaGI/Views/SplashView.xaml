@@ -26,7 +26,7 @@
 
             <Button IsVisible="False" Text="Acessar APP" Command="{Binding ToMainPageCommand}">
                 <Button.Triggers>
-                    <DataTrigger Binding="{Binding State}" Value="{Static models:SplashState.Loaded}">
+                    <DataTrigger TargetType="Button" Binding="{Binding State}" Value="{Static models:SplashState.Loaded}">
                         <Setter Property="IsVisible" Value="True" />
                     </DataTrigger>
                 </Button.Triggers>

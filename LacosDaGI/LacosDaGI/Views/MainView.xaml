@@ -4,6 +4,7 @@
              xmlns:models="clr-namespace:LacosDaGI.Models"
              xmlns:views="clr-namespace:LacosDaGI.Views"
              xmlns:controls="clr-namespace:LacosDaGI.Controls"
+             xmlns:iconize="clr-namespace:Plugin.Iconize;assembly=Plugin.Iconize"
              x:Class="LacosDaGI.Views.MainView" Title="Laços da GI">
     <ContentPage.BindingContext>
         <models:MainViewModel />

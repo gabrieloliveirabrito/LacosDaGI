@@ -31,13 +31,13 @@ namespace LacosDaGI.Models
 
             StatusBar.SetStatusBarColor(Application.Current.RequestedTheme == OSAppTheme.Dark ? darkColor : lightColor);
 
-            await Task.Delay(1500);
+            await Task.Delay(500);
             State = SplashState.LoadingDatabase;
-            await Task.Delay(1500);
+            await Task.Delay(500);
             State = SplashState.LoadingResources;
-            await Task.Delay(1500);
+            await Task.Delay(500);
             State = SplashState.Loaded;
-            await Task.Delay(1500);
+            await Task.Delay(500);
         }
     }
 }
