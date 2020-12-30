@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:iconize="clr-namespace:Plugin.Iconize;assembly=Plugin.Iconize"
+             xmlns:models="clr-namespace:LacosDaGI.Models"
+             xmlns:behaviors="clr-namespace:LacosDaGI.Behaviors"
+             x:Class="LacosDaGI.Views.SplashView">
+    <ContentPage.BindingContext>
+        <models:SplashViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Behaviors>
+        <behaviors:EventToCommandBehavior EventName="Appearing" Command="{Binding InitializeCommand}" />
+    </ContentPage.Behaviors>
+    <ContentPage.Content>
+        <StackLayout Style="{StaticResource SplashLayout}" Padding="30">
+            <iconize:IconImage Icon="mdi-bow-tie" IconColor="White" IconSize="300" HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand" />
+            <Label Text="Laços da GI" FontSize="30" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+            <Label FontSize="30" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span FontSize="20" Text="Status: " FontAttributes="Bold" />
+                        <Span FontSize="20" Text="{Binding State, Converter={StaticResource SplashStateToString}}" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Button IsVisible="False" Text="Acessar APP" Command="{Binding ToMainPageCommand}">
+                <Button.Triggers>
+                    <DataTrigger Binding="{Binding State}" Value="{Static models:SplashState.Loaded}">
+                        <Setter Property="IsVisible" Value="True" />
+                    </DataTrigger>
+                </Button.Triggers>
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -6,15 +6,19 @@ using System.Threading.Tasks;
 namespace LacosDaGI.Models
 {
     using DataModels;
+    using LacosDaGI.Views;
+    using Xamarin.Forms;
 
     public partial class LaceViewModel
     {
         bool initialized = false;
         public AsyncCommand<EventArgs> InitializeCommand { get; set; }
+        public RelayCommand<Lace> ToLacePreviewCommand { get; set; }
 
         protected void InitializeMethods()
         {
             InitializeCommand = new AsyncCommand<EventArgs>(Initialize);
+            ToLacePreviewCommand = new RelayCommand<Lace>(ToLacePreview);
         }
 
         private async Task Initialize(EventArgs arg)
@@ -40,6 +44,11 @@ namespace LacosDaGI.Models
             }
             Laces = new System.Collections.ObjectModel.ObservableCollection<Lace>(laces);
             initialized = true;
+        }
+
+        private void ToLacePreview(Lace lace)
+        {
+            Application.Current.MainPage.Navigation.PushAsync(new LacePreviewView(lace));
         }
     }
 }

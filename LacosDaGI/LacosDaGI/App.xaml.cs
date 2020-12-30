@@ -20,7 +20,8 @@ namespace LacosDaGI
                 .With(new Plugin.Iconize.Fonts.FontAwesomeSolidModule())
                 .With(new Plugin.Iconize.Fonts.MaterialDesignIconsModule());
 
-            MainPage = new NavigationPage(new MainView());
+            //MainPage = new NavigationPage(new MainView());
+            MainPage = new SplashView();
         }
 
         protected override void OnStart()

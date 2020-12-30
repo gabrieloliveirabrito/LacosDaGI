@@ -17,16 +17,7 @@ namespace LacosDaGI.DataModels
             get { return _image; }
             set 
             { 
-                _image = value; 
-                try
-                {
-                    var data = Convert.FromBase64String(value);
-                    ImageSource = ImageSource.FromStream(() => new System.IO.MemoryStream(data));
-                }
-                catch(Exception ex)
-                {
-                    Debug.WriteLine(ex);
-                }
+                _image = value;
             }
         }
 

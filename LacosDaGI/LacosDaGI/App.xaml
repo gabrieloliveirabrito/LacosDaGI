@@ -7,6 +7,7 @@
     <Application.Resources>
         <ResourceDictionary>
             <converters:Base64ToImage x:Key="Base64ToImage" />
+            <converters:SplashStateToString x:Key="SplashStateToString" />
 
             <Color x:Key="PrimaryLightMainColor">#d45dd4</Color>
             <Color x:Key="SecondaryLightMainColor">#c456c4</Color>
@@ -17,6 +18,10 @@
             <Color x:Key="SecondaryDarkMainColor">#7d397d</Color>
             <Color x:Key="BackgroundDarkColor">Black</Color>
             <Color x:Key="PrimaryDarkTextColor">White</Color>
+
+            <Style x:Key="SplashLayout" TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource SecondaryLightMainColor}, Dark={StaticResource SecondaryDarkMainColor}}" />
+            </Style>
         </ResourceDictionary>
 
         <Style TargetType="Page" ApplyToDerivedTypes="True">
