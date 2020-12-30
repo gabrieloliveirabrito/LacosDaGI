@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:models="clr-namespace:LacosDaGI.Models"
              xmlns:views="clr-namespace:LacosDaGI.Views"
+             xmlns:controls="clr-namespace:LacosDaGI.Controls"
              x:Class="LacosDaGI.Views.MainView" Title="Laços da GI">
     <ContentPage.BindingContext>
         <models:MainViewModel />
@@ -22,23 +23,22 @@
 
         <ScrollView VerticalOptions="FillAndExpand">
             <Grid VerticalOptions="FillAndExpand" Padding="10,10,10,10">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
-                
-                <Button Text="Laços" Grid.Column="0" Grid.Row="0" Margin="3" Command="{Binding NavigateToCommand}" CommandParameter="{x:Type views:LaceView}" />
-                <Button Text="Clientes" Grid.Column="0" Grid.Row="1" Margin="3" />
 
-                <Button Text="Vendas" Grid.Column="0" Grid.Row="2" Margin="3" />
-                <Button Text="Relatórios" Grid.Column="0" Grid.Row="3" Margin="3" />
+                <controls:IconButton Text="Laços" Icon="mdi-bow-tie" Margin="5" Grid.Row="0" Command="{Binding NavigateToCommand}" CommandParameter="{Type views:LaceView}" />
+                <controls:IconButton Text="Clientes" Icon="mdi-bow-tie" Margin="5" Grid.Row="1"  />
+
+                <controls:IconButton Text="Vendas" Icon="mdi-bow-tie" Margin="5" Grid.Row="2"  />
+                <controls:IconButton Text="Relatórios" Icon="mdi-bow-tie" Margin="5" Grid.Row="3"  />
             </Grid>
         </ScrollView>
+
+        <Label Text="Desenvolvido por Gabriel Oliveira Brito" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" />
     </StackLayout>
 
 </ContentPage>

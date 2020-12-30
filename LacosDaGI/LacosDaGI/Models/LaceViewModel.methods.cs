@@ -32,8 +32,8 @@ namespace LacosDaGI.Models
                 {
                     Id = i,
                     Name = $"Teste {i + 1}/{n}",
-                    Image = random.Next(0, 30) % 2 == 0 ? lace2 : lace1;
-                }
+                    Image = random.Next(0, 30) % 2 == 0 ? lace2 : lace1
+                };
             }
         }
     }

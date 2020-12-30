@@ -14,6 +14,11 @@ namespace LacosDaGI
 #if DEBUG
             HotReloader.Current.Run(this);
 #endif
+            Plugin.Iconize.Iconize
+                .With(new Plugin.Iconize.Fonts.FontAwesomeRegularModule())
+                .With(new Plugin.Iconize.Fonts.FontAwesomeBrandsModule())
+                .With(new Plugin.Iconize.Fonts.FontAwesomeSolidModule())
+                .With(new Plugin.Iconize.Fonts.MaterialDesignIconsModule());
 
             MainPage = new NavigationPage(new MainView());
         }

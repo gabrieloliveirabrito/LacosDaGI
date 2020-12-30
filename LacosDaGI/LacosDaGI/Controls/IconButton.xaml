@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:iconize="clr-namespace:Plugin.Iconize;assembly=Plugin.Iconize"
+             x:Class="LacosDaGI.Controls.IconButton" x:Name="this">
+  <ContentView.Content>
+        <Frame Padding="10" Grid.Row="0">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding Command, Source={Reference this}}" CommandParameter="{Binding CommandParameter, Source={Reference this}}" />
+            </Frame.GestureRecognizers>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <iconize:IconLabel Text="{Binding Icon,Source={Reference this}}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontSize="50" WidthRequest="200" Grid.Column="0" />
+                <Label Text="{Binding Text, Source={Reference this}}" FontSize="Large" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="1" />
+            </Grid>
+        </Frame>
+    </ContentView.Content>
+</ContentView>

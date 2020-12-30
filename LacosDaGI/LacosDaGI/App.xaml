@@ -2,6 +2,7 @@
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:converters="clr-namespace:LacosDaGI.Converters"
+             xmlns:iconize="clr-namespace:Plugin.Iconize;assembly=Plugin.Iconize"
              x:Class="LacosDaGI.App">
     <Application.Resources>
         <ResourceDictionary>
@@ -38,6 +39,12 @@
             <Setter Property="BackgroundColor" Value="White" />
             <Setter Property="TextColor" Value="Black" />
             <Setter Property="PlaceholderColor" Value="Gray" />
+        </Style>
+
+        <Style TargetType="iconize:IconImage">
+            <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+            <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+            <Setter Property="Background" Value="Black" />
         </Style>
     </Application.Resources>
 </Application>
