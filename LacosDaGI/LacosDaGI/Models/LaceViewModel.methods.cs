@@ -28,7 +28,8 @@ namespace LacosDaGI.Models
             var random = new Random();
 
             Laces.Clear();
-            for(int i = 0, n = random.Next(100, 300); i < n; i++)
+            var laces = new Lace[random.Next(10, 30)];
+            for(int i = 0, n = laces.Length; i < n; i++)
             {
                 Laces.Add(new Lace
                 {
@@ -36,8 +37,8 @@ namespace LacosDaGI.Models
                     Name = $"Teste {i + 1}/{n}",
                     Image = random.Next(0, 30) % 2 == 0 ? lace2 : lace1
                 });
-                await Task.Delay(10);
             }
+            Laces = new System.Collections.ObjectModel.ObservableCollection<Lace>(laces);
             initialized = true;
         }
     }

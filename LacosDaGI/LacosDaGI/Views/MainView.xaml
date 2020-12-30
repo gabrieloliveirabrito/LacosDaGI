@@ -31,10 +31,10 @@
                 </Grid.RowDefinitions>
 
                 <controls:IconButton Text="Laços" Icon="mdi-bow-tie" Margin="5" Grid.Row="0" Command="{Binding NavigateToCommand}" CommandParameter="{Type views:LaceView}" />
-                <controls:IconButton Text="Clientes" Icon="mdi-bow-tie" Margin="5" Grid.Row="1"  />
+                <controls:IconButton Text="Clientes" Icon="fas-users" Margin="5" Grid.Row="1"  />
 
-                <controls:IconButton Text="Vendas" Icon="mdi-bow-tie" Margin="5" Grid.Row="2"  />
-                <controls:IconButton Text="Relatórios" Icon="mdi-bow-tie" Margin="5" Grid.Row="3"  />
+                <controls:IconButton Text="Vendas" Icon="fas-money-bill-alt" Margin="5" Grid.Row="2"  />
+                <controls:IconButton Text="Relatórios" Icon="fas-file-alt" Margin="5" Grid.Row="3"  />
             </Grid>
         </ScrollView>
 

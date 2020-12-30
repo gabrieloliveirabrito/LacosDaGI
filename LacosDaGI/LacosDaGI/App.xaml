@@ -51,5 +51,14 @@
             <Setter Property="WidthRequest" Value="100" />
             <Setter Property="HeightRequest" Value="{Binding WidthRequest, Source={RelativeSource Self}}" />
         </Style>
+
+        <Style TargetType="iconize:IconButton">
+            <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource SecondaryLightMainColor}, Dark={StaticResource SecondaryDarkMainColor}}" />
+            <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource PrimaryLightTextColor}, Dark={StaticResource PrimaryDarkTextColor}}" />
+        </Style>
+
+        <Style TargetType="iconize:IconImage">
+            <Setter Property="IconColor" Value="{AppThemeBinding Light={StaticResource PrimaryLightTextColor}, Dark={StaticResource PrimaryDarkTextColor}}" />
+        </Style>
     </Application.Resources>
 </Application>

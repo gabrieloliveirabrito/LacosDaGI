@@ -4,7 +4,9 @@
              xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView"
              xmlns:models="clr-namespace:LacosDaGI.Models"
              xmlns:behaviors="clr-namespace:LacosDaGI.Behaviors"
+             xmlns:iconize="clr-namespace:Plugin.Iconize;assembly=Plugin.Iconize"
              xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:controls="clr-namespace:LacosDaGI.Controls"
              x:Class="LacosDaGI.Views.LaceView" Title="Laços da GI - Gerenciar laços">
     <ContentPage.BindingContext>
         <models:LaceViewModel />
@@ -20,41 +22,45 @@
                     <ColumnDefinition Width="120" />
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
+                    <RowDefinition Height="80" />
                     <RowDefinition Height="50" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
 
-                <Entry Grid.Row="0" Grid.Column="0" Placeholder="Pesquisar pelo nome do laço" HorizontalOptions="FillAndExpand" Margin="10,0,5,0" />
-                <Button Text="Pesquisar" Grid.Row="0" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="0,0,10,0" />
+                <controls:IconButton Icon="fas-plus" Text="Cadastrar laço" Grid.Row="0" Grid.ColumnSpan="2"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="10,5,10,5" />
 
-                <flv:FlowListView FlowItemsSource="{Binding Laces}" FlowColumnCount="2" HasUnevenRows="True" VerticalScrollBarVisibility="Always" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
-                    <flv:FlowListView.FlowColumnTemplate>
+                <Entry Grid.Row="1" Grid.Column="0" Placeholder="Pesquisar pelo nome do laço" HorizontalOptions="FillAndExpand" Margin="10,0,5,0" />
+                <Button Text="Pesquisar" Grid.Row="1" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="0,0,10,0" />
+
+                <CollectionView ItemsSource="{Binding Laces}" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+                    <CollectionView.ItemTemplate>
                         <DataTemplate>
-                            <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="10,5,10,5">
+                            <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="5">
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="30" />
                                     <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="40" />
+                                    <ColumnDefinition Width="40" />
+                                    <ColumnDefinition Width="40" />
                                 </Grid.ColumnDefinitions>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="*" />
-                                    <RowDefinition Height="20" />
-                                </Grid.RowDefinitions>
 
-                                <ff:CachedImage Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Aspect="AspectFill" WidthRequest="200" HeightRequest="100" Source="{Binding Image, Converter={StaticResource Base64ToImage}}" />
-
-                                <Label FontAttributes="Bold" Grid.Column="0" Grid.Row="1">
+                                <Label Grid.Column="0" Grid.Row="0" VerticalOptions="Center" >
                                     <Label.FormattedText>
                                         <FormattedString>
-                                            <Span Text="#" />
-                                            <Span Text="{Binding Id}" />
+                                            <Span Text="#" FontAttributes="Bold" />
+                                            <Span Text="{Binding Id}" FontAttributes="Bold" />
+                                            <Span Text=" - " />
+                                            <Span Text="{Binding Name}" />
                                         </FormattedString>
                                     </Label.FormattedText>
                                 </Label>
-                                <Label HorizontalTextAlignment="Center" Text="{Binding Name}" Grid.Column="1" Grid.Row="1" />
+
+                                <iconize:IconButton Text="fas-search" FontSize="10" Grid.Column="1" Padding="0" />
+                                <iconize:IconButton Text="fas-edit" FontSize="10" Grid.Column="2" Padding="0" />
+                                <iconize:IconButton Text="fas-trash-alt" FontSize="10" Grid.Column="3" Padding="0" />
                             </Grid>
                         </DataTemplate>
-                    </flv:FlowListView.FlowColumnTemplate>
-                </flv:FlowListView>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
             </Grid>
         </StackLayout>
     </ContentPage.Content>
