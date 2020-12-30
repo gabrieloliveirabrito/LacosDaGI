@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LacosDaGI.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="PrimaryLightMainColor">#d45dd4</Color>
+            <Color x:Key="SecondaryLightMainColor">#c456c4</Color>
+
+            <Color x:Key="PrimaryDarkMainColor">#9e429e</Color>
+            <Color x:Key="SecondaryDarkMainColor">#7d397d</Color>
+
+        </ResourceDictionary>
+
+        <Style TargetType="NavigationPage" ApplyToDerivedTypes="True">
+            <Setter Property="BarBackgroundColor" Value="{AppThemeBinding Light={StaticResource SecondaryLightMainColor}, Dark={StaticResource SecondaryDarkMainColor}}" />
+        </Style>
+        
+        <Style TargetType="Frame" ApplyToDerivedTypes="True">
+            <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource PrimaryLightMainColor}, Dark={StaticResource PrimaryDarkMainColor}}" />
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource SecondaryLightMainColor}, Dark={StaticResource SecondaryDarkMainColor}}" />
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="Margin" Value="30,0,30,0" />
+        </Style>
+    </Application.Resources>
+</Application>
