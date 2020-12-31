@@ -8,6 +8,7 @@ using Android.Widget;
 using Android.OS;
 using Plugin.CurrentActivity;
 using Android.Content;
+using System.IO;
 
 namespace LacosDaGI.Droid
 {
@@ -27,7 +28,9 @@ namespace LacosDaGI.Droid
             Plugin.Iconize.Iconize.Init(Resource.Id.toolbar, Resource.Id.sliding_tabs);
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init(enableFastRenderer: true);
 
-            LoadApplication(new App());
+            var dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "lacos.db");
+
+            LoadApplication(new App(dbPath));
         }
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)

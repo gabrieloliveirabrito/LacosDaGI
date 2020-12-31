@@ -28,7 +28,7 @@
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
 
-                <controls:IconButton Icon="fas-plus" Text="Cadastrar laço" Grid.Row="0" Grid.ColumnSpan="2"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="10,5,10,5" />
+                <controls:IconButton Icon="fas-plus" Text="Cadastrar laço" Grid.Row="0" Grid.ColumnSpan="2"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="10,5,10,5" Command="{Binding AddLaceCommand}" />
 
                 <Entry Grid.Row="1" Grid.Column="0" Placeholder="Pesquisar pelo nome do laço" HorizontalOptions="FillAndExpand" Margin="10,0,5,0" />
                 <Button Text="Pesquisar" Grid.Row="1" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="0,0,10,0"   Command="{Binding ToLacePreviewCommand}"/>
@@ -57,7 +57,7 @@
 
                                 <iconize:IconButton Text="fas-search" FontSize="10" Grid.Column="1" Padding="0" Command="{Binding BindingContext.ToLacePreviewCommand, Source={Reference this}}" CommandParameter="{Binding .}" />
                                 <iconize:IconButton Text="fas-edit" FontSize="10" Grid.Column="2" Padding="0"  Command="{Binding ToLacePreviewCommand}" />
-                                <iconize:IconButton Text="fas-trash-alt" FontSize="10" Grid.Column="3" Padding="0"  Command="{Binding ToLacePreviewCommand}" />
+                                <iconize:IconButton Text="fas-trash-alt" FontSize="10" Grid.Column="3" Padding="0"  Command="{Binding BindingContext.DeleteLaceCommand, Source={Reference this}}" CommandParameter="{Binding .}" />
                             </Grid>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>

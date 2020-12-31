@@ -7,15 +7,11 @@ using Xamarin.Forms;
 
 namespace LacosDaGI.Converters
 {
-    public class SplashStateToString : IValueConverter
+    public class SplashStateToString : BaseConverter<SplashState, string>
     {
-        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        public override string Convert(SplashState value, object parameter, CultureInfo culture)
         {
-            if (value == null || value.GetType() != typeof(SplashState))
-                return "";
-
-            var state = (SplashState)value;
-            switch(state)
+            switch (value)
             {
                 case SplashState.Initializing:
                     return "Inicializando o App...";
@@ -30,7 +26,7 @@ namespace LacosDaGI.Converters
             }
         }
 
-        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        public override SplashState ConvertBack(string value, object parameter, CultureInfo culture)
         {
             throw new NotImplementedException();
         }

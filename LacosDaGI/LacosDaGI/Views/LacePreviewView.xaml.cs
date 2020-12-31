@@ -14,9 +14,9 @@ namespace LacosDaGI.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LacePreviewView : ContentPage
     {
-        public Lace Lace { get; set; }
+        public Tie Lace { get; set; }
 
-        public LacePreviewView(Lace lace)
+        public LacePreviewView(Tie lace)
         {
             InitializeComponent();
 

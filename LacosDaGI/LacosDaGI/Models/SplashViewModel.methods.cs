@@ -1,4 +1,5 @@
-﻿using LacosDaGI.Dependencies;
+﻿using LacosDaGI.DbContext;
+using LacosDaGI.Dependencies;
 using LacosDaGI.Views;
 using System;
 using System.Collections.Generic;
@@ -31,13 +32,17 @@ namespace LacosDaGI.Models
 
             StatusBar.SetStatusBarColor(Application.Current.RequestedTheme == OSAppTheme.Dark ? darkColor : lightColor);
 
-            await Task.Delay(500);
+            await Task.Delay(100);
             State = SplashState.LoadingDatabase;
-            await Task.Delay(500);
+
+            using (var context = new TiesContext())
+                await context.Initialize();
+
+            await Task.Delay(100);
             State = SplashState.LoadingResources;
-            await Task.Delay(500);
+            await Task.Delay(100);
             State = SplashState.Loaded;
-            await Task.Delay(500);
+            await Task.Delay(200);
         }
     }
 }
