@@ -12,21 +12,21 @@ using Xamarin.Forms.Xaml;
 namespace LacosDaGI.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class LacePreviewView : ContentPage
+    public partial class TiePreviewView : ContentPage
     {
-        public Tie Lace { get; set; }
+        public Tie Tie { get; set; }
 
-        public LacePreviewView(Tie lace)
+        public TiePreviewView(Tie tie)
         {
             InitializeComponent();
 
-            Lace = lace;
+            Tie = tie;
         }
 
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            (BindingContext as LacePreviewModel).Lace = Lace;
+            (BindingContext as TiePreviewModel).Tie = Tie;
         }
     }
 }

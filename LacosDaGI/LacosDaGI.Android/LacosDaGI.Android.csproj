@@ -33,6 +33,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
+    <BundleAssemblies>false</BundleAssemblies>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -61,6 +65,7 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.6.0" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dependencies\Paths.cs" />
     <Compile Include="Dependencies\StatusBar.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
@@ -93,15 +98,18 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\layout\Splash.xml" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\LacosDaGI\LacosDaGI.csproj">
-      <Project>{C09B8621-62EE-466D-8F80-D77F79A9EED7}</Project>
+      <Project>{1668298d-2707-4907-a5ed-5faf1c3ecc4c}</Project>
       <Name>LacosDaGI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties TriggeredFromHotReload="False" XamarinHotReloadDebuggerTimeoutExceptionLacosDaGIAndroidHideInfoBar="True" />
+      <UserProperties XamarinHotReloadDebuggerTimeoutExceptionLacosDaGIAndroidHideInfoBar="True" TriggeredFromHotReload="False" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

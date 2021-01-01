@@ -8,9 +8,7 @@ namespace LacosDaGI
 
     public partial class App : Application
     {
-        public static string DbPath { get; private set; }
-
-        public App(string dbPath)
+        public App()
         {
             InitializeComponent();
 #if DEBUG
@@ -22,7 +20,6 @@ namespace LacosDaGI
                 .With(new Plugin.Iconize.Fonts.FontAwesomeSolidModule())
                 .With(new Plugin.Iconize.Fonts.MaterialDesignIconsModule());
 
-            DbPath = dbPath;
             MainPage = new SplashView();
         }
 

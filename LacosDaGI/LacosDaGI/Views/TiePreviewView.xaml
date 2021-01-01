@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:LacosDaGI.Models"
+             x:Class="LacosDaGI.Views.TiePreviewView">
+    <NavigationPage.TitleView>
+        <Label FontSize="21" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Laços da GI - " />
+                    <Span Text="{Binding Tie.Name}" />
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </NavigationPage.TitleView>
+    <ContentPage.BindingContext>
+        <models:TiePreviewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+            </Grid.RowDefinitions>
+            
+            <Image MinimumWidthRequest="200" MinimumHeightRequest="200" Aspect="Fill" Grid.Row="0" Grid.ColumnSpan="2" Source="{Binding Tie.Image, Converter={StaticResource BufferToImage}}" />
+
+            <Label Grid.Row="1" Grid.Column="0" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand" Text="Nome do Laço" />
+            <Label Grid.Row="1" Grid.Column="1" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" Text="{Binding Tie.Name}"/>
+
+            <Label Grid.Row="2" Grid.Column="0" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand" Text="Nome do Laço" />
+            <Label Grid.Row="2" Grid.Column="1" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" Text="{Binding Tie.Name}"/>
+
+            <Label Grid.Row="3" Grid.Column="0" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand" Text="Nome do Laço" />
+            <Label Grid.Row="3" Grid.Column="1" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" Text="{Binding Tie.Name}"/>
+
+            <Label Grid.Row="4" Grid.Column="0" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand" Text="Nome do Laço" />
+            <Label Grid.Row="4" Grid.Column="1" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HorizontalOptions="StartAndExpand" Text="{Binding Tie.Name}"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

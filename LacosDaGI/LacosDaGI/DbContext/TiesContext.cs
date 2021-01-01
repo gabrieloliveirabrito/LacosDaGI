@@ -6,7 +6,7 @@ using System.Text;
 
 namespace LacosDaGI.DbContext
 {
-    public class TiesContext : BaseDbContext<TiesContext>
+    public class TiesContext : BaseDbContext
     {
         public DbSet<Tie> Ties { get; set; }
         public DbSet<Client> Clients { get; set; }

@@ -7,9 +7,9 @@
              xmlns:iconize="clr-namespace:Plugin.Iconize;assembly=Plugin.Iconize"
              xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              xmlns:controls="clr-namespace:LacosDaGI.Controls"
-             x:Class="LacosDaGI.Views.LaceView" Title="Laços da GI - Gerenciar laços" x:Name="this">
+             x:Class="LacosDaGI.Views.TieView" Title="Laços da GI - Gerenciar laços" x:Name="this">
     <ContentPage.BindingContext>
-        <models:LaceViewModel />
+        <models:TieViewModel />
     </ContentPage.BindingContext>
     <ContentPage.Behaviors>
         <behaviors:EventToCommandBehavior EventName="Appearing" Command="{Binding InitializeCommand}" />
@@ -28,12 +28,12 @@
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
 
-                <controls:IconButton Icon="fas-plus" Text="Cadastrar laço" Grid.Row="0" Grid.ColumnSpan="2"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="10,5,10,5" Command="{Binding AddLaceCommand}" />
+                <controls:IconButton Icon="fas-plus" Text="Cadastrar laço" Grid.Row="0" Grid.ColumnSpan="2"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="10,5,10,5" Command="{Binding AddTieCommand}" />
 
                 <Entry Grid.Row="1" Grid.Column="0" Placeholder="Pesquisar pelo nome do laço" HorizontalOptions="FillAndExpand" Margin="10,0,5,0" />
-                <Button Text="Pesquisar" Grid.Row="1" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="0,0,10,0"   Command="{Binding ToLacePreviewCommand}"/>
+                <Button Text="Pesquisar" Grid.Row="1" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="0,0,10,0"   Command="{Binding ToTiePreviewCommand}"/>
 
-                <CollectionView ItemsSource="{Binding Laces}" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+                <CollectionView ItemsSource="{Binding Ties}" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
                             <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="5">
@@ -55,9 +55,9 @@
                                     </Label.FormattedText>
                                 </Label>
 
-                                <iconize:IconButton Text="fas-search" FontSize="10" Grid.Column="1" Padding="0" Command="{Binding BindingContext.ToLacePreviewCommand, Source={Reference this}}" CommandParameter="{Binding .}" />
-                                <iconize:IconButton Text="fas-edit" FontSize="10" Grid.Column="2" Padding="0"  Command="{Binding ToLacePreviewCommand}" />
-                                <iconize:IconButton Text="fas-trash-alt" FontSize="10" Grid.Column="3" Padding="0"  Command="{Binding BindingContext.DeleteLaceCommand, Source={Reference this}}" CommandParameter="{Binding .}" />
+                                <iconize:IconButton Text="fas-search" FontSize="10" Grid.Column="1" Padding="0" Command="{Binding BindingContext.ToTiePreviewCommand, Source={Reference this}}" CommandParameter="{Binding .}" />
+                                <iconize:IconButton Text="fas-edit" FontSize="10" Grid.Column="2" Padding="0"  Command="{Binding ToTiePreviewCommand}" />
+                                <iconize:IconButton Text="fas-trash-alt" FontSize="10" Grid.Column="3" Padding="0"  Command="{Binding BindingContext.DeleteTieCommand, Source={Reference this}}" CommandParameter="{Binding .}" />
                             </Grid>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>

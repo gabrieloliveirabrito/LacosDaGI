@@ -11,6 +11,9 @@ namespace LacosDaGI.Converters
     {
         public override ImageSource Convert(string value, object parameter, CultureInfo culture)
         {
+            if (value == null)
+                return null;
+
             var data = System.Convert.FromBase64String(value);
             return ImageSource.FromStream(() => new MemoryStream(data));
         }

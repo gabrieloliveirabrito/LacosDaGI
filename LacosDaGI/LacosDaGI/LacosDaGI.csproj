@@ -22,6 +22,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\TiePreviewView.xaml.cs">
+      <DependentUpon>TiePreviewView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\TieView.xaml.cs">
+      <DependentUpon>TieView.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\MainView.xaml.cs">
       <DependentUpon>MainView.xaml</DependentUpon>
     </Compile>
@@ -31,13 +37,13 @@
     <EmbeddedResource Update="Controls\IconButton.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\LacePreviewView.xaml">
+    <EmbeddedResource Update="Views\ClientView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\LaceView.xaml">
+    <EmbeddedResource Update="Views\TiePreviewView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\ListViewPage1.xaml">
+    <EmbeddedResource Update="Views\TieView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\SplashView.xaml">

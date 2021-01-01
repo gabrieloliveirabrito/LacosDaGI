@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace LacosDaGI.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class LaceView : ContentPage
+    public partial class ClientView : ContentPage
     {
-        public LaceView()
+        public ClientView()
         {
             InitializeComponent();
         }

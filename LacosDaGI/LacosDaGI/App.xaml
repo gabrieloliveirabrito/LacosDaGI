@@ -8,6 +8,7 @@
         <ResourceDictionary>
             <converters:Base64ToImage x:Key="Base64ToImage" />
             <converters:SplashStateToString x:Key="SplashStateToString" />
+            <converters:BufferToImage x:Key="BufferToImage" />
 
             <Color x:Key="PrimaryLightMainColor">#d45dd4</Color>
             <Color x:Key="SecondaryLightMainColor">#c456c4</Color>

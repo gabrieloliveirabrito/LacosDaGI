@@ -30,10 +30,5 @@ namespace LacosDaGI.Views
         {
             base.OnAppearing();
         }
-
-        private async void Button_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new ListViewPage1(), true);
-        }
     }
 }

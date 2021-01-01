@@ -31,7 +31,7 @@
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
 
-                <controls:IconButton Text="Laços" Icon="mdi-bow-tie" Margin="5" Grid.Row="0" Command="{Binding NavigateToCommand}" CommandParameter="{Type views:LaceView}" />
+                <controls:IconButton Text="Laços" Icon="mdi-bow-tie" Margin="5" Grid.Row="0" Command="{Binding NavigateToCommand}" CommandParameter="{Type views:TieView}" />
                 <controls:IconButton Text="Clientes" Icon="fas-users" Margin="5" Grid.Row="1"  />
 
                 <controls:IconButton Text="Vendas" Icon="fas-money-bill-alt" Margin="5" Grid.Row="2"  />

@@ -12,12 +12,12 @@ namespace LacosDaGI.Models
         public TieViewModel()
         {
             InitializeMethods();
-            Laces = new ObservableCollection<Tie>();
+            Ties = new ObservableCollection<Tie>();
         }
 
 
         private ObservableCollection<Tie> _Laces;
-        public ObservableCollection<Tie> Laces
+        public ObservableCollection<Tie> Ties
         {
             get => _Laces;
             set => Set(ref _Laces, value);

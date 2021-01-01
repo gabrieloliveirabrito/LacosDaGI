@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace LacosDaGI.DbContext
 {
-    public abstract class BaseDbContext<TContext> : Microsoft.EntityFrameworkCore.DbContext
-        where TContext : BaseDbContext<TContext>
+    using Dependencies;
+
+    public abstract class BaseDbContext : Microsoft.EntityFrameworkCore.DbContext
     {
         /*private static TContext instance;
         public static TContext Instance
@@ -23,7 +24,7 @@ namespace LacosDaGI.DbContext
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite($"Filename={App.DbPath}");
+            optionsBuilder.UseSqlite($"Filename={Paths.DbPath}");
         }
     }
 }

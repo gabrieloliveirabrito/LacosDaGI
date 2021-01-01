@@ -11,6 +11,8 @@ namespace LacosDaGI.Converters
     {
         public override ImageSource Convert(byte[] value, object parameter, CultureInfo culture)
         {
+            if (value == null)
+                return null;
             return ImageSource.FromStream(() => new MemoryStream(value));
         }
 
