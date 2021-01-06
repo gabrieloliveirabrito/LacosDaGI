@@ -5,19 +5,28 @@
              xmlns:views="clr-namespace:LacosDaGI.Views"
              xmlns:controls="clr-namespace:LacosDaGI.Controls"
              xmlns:iconize="clr-namespace:Plugin.Iconize;assembly=Plugin.Iconize"
-             x:Class="LacosDaGI.Views.MainView" Title="Laços da GI">
+             x:Class="LacosDaGI.Views.MainView" NavigationPage.HasNavigationBar="False">
     <ContentPage.BindingContext>
         <models:MainViewModel />
     </ContentPage.BindingContext>
     <StackLayout>
         <Frame Padding="24" CornerRadius="0">
-            <Label HorizontalTextAlignment="Center" TextColor="White" FontSize="36">
-                <Label.FormattedText>
-                    <FormattedString>
-                        <Span Text="Laços da GI" FontSize="36" FontAttributes="Bold" />
-                    </FormattedString>
-                </Label.FormattedText>
-            </Label>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <iconize:IconImage Icon="mdi-bow-tie" IconColor="White" IconSize="60" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand" Margin="0,0,5,0" />
+
+                <Label Grid.Column="1" HorizontalTextAlignment="Start" TextColor="White" FontSize="36">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Laços da GI" FontSize="36" FontAttributes="Bold" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </Grid>
         </Frame>
         <Label Text="Seja bem-vindo(a)" FontSize="Title" Padding="30,10,30,10"/>
         <Label Text="Abaixo, você pode acessar as opções de gerenciamento de venda de laços" FontSize="16" Padding="30,0,30,0"/>
@@ -32,7 +41,7 @@
                 </Grid.RowDefinitions>
 
                 <controls:IconButton Text="Laços" Icon="mdi-bow-tie" Margin="5" Grid.Row="0" Command="{Binding NavigateToCommand}" CommandParameter="{Type views:TieView}" />
-                <controls:IconButton Text="Clientes" Icon="fas-users" Margin="5" Grid.Row="1"  />
+                <controls:IconButton Text="Clientes" Icon="fas-users" Margin="5" Grid.Row="1" Command="{Binding NavigateToCommand}" CommandParameter="{Type views:ClientView}" />
 
                 <controls:IconButton Text="Vendas" Icon="fas-money-bill-alt" Margin="5" Grid.Row="2"  />
                 <controls:IconButton Text="Relatórios" Icon="fas-file-alt" Margin="5" Grid.Row="3"  />

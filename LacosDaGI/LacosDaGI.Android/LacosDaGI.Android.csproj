@@ -65,6 +65,7 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.6.0" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\Entry.cs" />
     <Compile Include="Dependencies\Paths.cs" />
     <Compile Include="Dependencies\StatusBar.cs" />
     <Compile Include="MainActivity.cs" />

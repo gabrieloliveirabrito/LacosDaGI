@@ -3,12 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:converters="clr-namespace:LacosDaGI.Converters"
              xmlns:iconize="clr-namespace:Plugin.Iconize;assembly=Plugin.Iconize"
+             xmlns:controls="clr-namespace:LacosDaGI.Controls"
              x:Class="LacosDaGI.App">
     <Application.Resources>
         <ResourceDictionary>
             <converters:Base64ToImage x:Key="Base64ToImage" />
             <converters:SplashStateToString x:Key="SplashStateToString" />
             <converters:BufferToImage x:Key="BufferToImage" />
+            <converters:BoolStateConverter x:Key="CreateEdit" TrueState="editar" FalseState="cadastrar" />
 
             <Color x:Key="PrimaryLightMainColor">#d45dd4</Color>
             <Color x:Key="SecondaryLightMainColor">#c456c4</Color>
@@ -34,7 +36,7 @@
         </Style>
         
         <Style TargetType="Frame" ApplyToDerivedTypes="True">
-            <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource PrimaryLightMainColor}, Dark={StaticResource PrimaryDarkMainColor}}" />
+            <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource SecondaryLightMainColor}, Dark={StaticResource SecondaryDarkMainColor}}" />
         </Style>
 
         <Style TargetType="Button">
@@ -65,6 +67,13 @@
 
         <Style TargetType="iconize:IconImage">
             <Setter Property="IconColor" Value="{AppThemeBinding Light={StaticResource PrimaryLightTextColor}, Dark={StaticResource PrimaryDarkTextColor}}" />
+        </Style>
+
+        <Style TargetType="controls:Entry">
+            <Setter Property="BackgroundColor" Value="Transparent" />
+            <Setter Property="BorderColor" Value="Gray" />
+            <Setter Property="BorderThickness" Value="1" />
+            <Setter Property="CornerRadius" Value="8" />
         </Style>
     </Application.Resources>
 </Application>

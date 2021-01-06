@@ -16,8 +16,8 @@
                 </Grid.ColumnDefinitions>
 
                 <!--<iconize:IconLabel Text="{Binding Icon,Source={Reference this}}" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontSize="50" WidthRequest="200" Grid.Column="0" />-->
-                <iconize:IconImage Icon="{Binding Icon, Source={Reference this}}" Grid.Row="0" Grid.Column="0" />
-                <Label Text="{Binding Text, Source={Reference this}}" FontSize="Large" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="1" />
+                <iconize:IconImage Icon="{Binding Icon, Source={Reference this}}" IconColor="{Binding Color, Source={Reference this}}" Grid.Row="0" Grid.Column="0" />
+                <Label Text="{Binding Text, Source={Reference this}}" TextColor="{Binding Color, Source={Reference this}}" FontSize="Large" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Grid.Column="1" />
             </Grid>
         </Frame>
     </ContentView.Content>

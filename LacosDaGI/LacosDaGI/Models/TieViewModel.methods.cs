@@ -75,26 +75,21 @@ namespace LacosDaGI.Models
 
         private async Task AddTie(EventArgs e)
         {
-            var tie = new Tie { Name = $"Laço {new Random().Next(10, 100)}" };
-            using (var context = new TiesContext())
-            {
-                await context.Ties.AddAsync(tie);
-
-                await context.SaveChangesAsync();
-            }
-
-            Ties.Add(tie);
+            await Navigation.PushAsync(new TieCreateView());
         }
 
         private async Task DeleteTie(Tie tie)
         {
-            using(var context = new TiesContext())
+            if (await ShowConfirmDialog("Aviso", $"Deseja realmente deletar o laço ${tie.Name}?"))
             {
-                context.Ties.Remove(tie);
-                await context.SaveChangesAsync();
-            }
+                using (var context = new TiesContext())
+                {
+                    context.Ties.Remove(tie);
+                    await context.SaveChangesAsync();
+                }
 
-            Ties.Remove(tie);
+                Ties.Remove(tie);
+            }
         }
     }
 }

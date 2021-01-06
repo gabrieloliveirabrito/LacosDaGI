@@ -30,7 +30,7 @@
 
                 <controls:IconButton Icon="fas-plus" Text="Cadastrar laço" Grid.Row="0" Grid.ColumnSpan="2"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="10,5,10,5" Command="{Binding AddTieCommand}" />
 
-                <Entry Grid.Row="1" Grid.Column="0" Placeholder="Pesquisar pelo nome do laço" HorizontalOptions="FillAndExpand" Margin="10,0,5,0" />
+                <controls:Entry Grid.Row="1" Grid.Column="0" Placeholder="Pesquisar pelo nome do laço" HorizontalOptions="FillAndExpand" Margin="10,0,5,0" Padding="13" />
                 <Button Text="Pesquisar" Grid.Row="1" Grid.Column="1" HorizontalOptions="FillAndExpand" Margin="0,0,10,0"   Command="{Binding ToTiePreviewCommand}"/>
 
                 <CollectionView ItemsSource="{Binding Ties}" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
