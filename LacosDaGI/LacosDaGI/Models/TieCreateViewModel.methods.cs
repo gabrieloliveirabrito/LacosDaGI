@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarians.CropImage;
 using Xamarin.Essentials;
 
 namespace LacosDaGI.Models
@@ -27,15 +28,11 @@ namespace LacosDaGI.Models
             var options = new PickOptions { FileTypes = FilePickerFileType.Images };
             var result = await FilePicker.PickAsync(options);
 
-            if(result != null)
+            if (result != null)
             {
-                using (var stream = await result.OpenReadAsync())
-                using (var memory = new MemoryStream())
-                {
-                    await stream.CopyToAsync(memory);
-
-                    Image = memory.ToArray();
-                }
+                var cropResult = await CropImageService.Instance.CropImage(result.FullPath, CropRatioType.None);
+                if (cropResult.IsSuccess)
+                    Image = File.ReadAllBytes(cropResult.FilePath);
             }
         }
 

@@ -25,6 +25,1543 @@ namespace LacosDaGI.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Xamarians.CropImage.Droid.Resource.Animation.abc_fade_in = global::LacosDaGI.Droid.Resource.Animation.abc_fade_in;
+			global::Xamarians.CropImage.Droid.Resource.Animation.abc_fade_out = global::LacosDaGI.Droid.Resource.Animation.abc_fade_out;
+			global::Xamarians.CropImage.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::LacosDaGI.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xamarians.CropImage.Droid.Resource.Animation.abc_popup_enter = global::LacosDaGI.Droid.Resource.Animation.abc_popup_enter;
+			global::Xamarians.CropImage.Droid.Resource.Animation.abc_popup_exit = global::LacosDaGI.Droid.Resource.Animation.abc_popup_exit;
+			global::Xamarians.CropImage.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::LacosDaGI.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xamarians.CropImage.Droid.Resource.Animation.abc_slide_in_bottom = global::LacosDaGI.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xamarians.CropImage.Droid.Resource.Animation.abc_slide_in_top = global::LacosDaGI.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xamarians.CropImage.Droid.Resource.Animation.abc_slide_out_bottom = global::LacosDaGI.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xamarians.CropImage.Droid.Resource.Animation.abc_slide_out_top = global::LacosDaGI.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xamarians.CropImage.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::LacosDaGI.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xamarians.CropImage.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::LacosDaGI.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xamarians.CropImage.Droid.Resource.Animation.design_snackbar_in = global::LacosDaGI.Droid.Resource.Animation.design_snackbar_in;
+			global::Xamarians.CropImage.Droid.Resource.Animation.design_snackbar_out = global::LacosDaGI.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionBarDivider = global::LacosDaGI.Droid.Resource.Attribute.actionBarDivider;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionBarItemBackground = global::LacosDaGI.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionBarPopupTheme = global::LacosDaGI.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionBarSize = global::LacosDaGI.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionBarSplitStyle = global::LacosDaGI.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionBarStyle = global::LacosDaGI.Droid.Resource.Attribute.actionBarStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionBarTabBarStyle = global::LacosDaGI.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionBarTabStyle = global::LacosDaGI.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionBarTabTextStyle = global::LacosDaGI.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionBarTheme = global::LacosDaGI.Droid.Resource.Attribute.actionBarTheme;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionBarWidgetTheme = global::LacosDaGI.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionButtonStyle = global::LacosDaGI.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionDropDownStyle = global::LacosDaGI.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionLayout = global::LacosDaGI.Droid.Resource.Attribute.actionLayout;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionMenuTextAppearance = global::LacosDaGI.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionMenuTextColor = global::LacosDaGI.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionModeBackground = global::LacosDaGI.Droid.Resource.Attribute.actionModeBackground;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::LacosDaGI.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionModeCloseDrawable = global::LacosDaGI.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionModeCopyDrawable = global::LacosDaGI.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionModeCutDrawable = global::LacosDaGI.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionModeFindDrawable = global::LacosDaGI.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionModePasteDrawable = global::LacosDaGI.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionModePopupWindowStyle = global::LacosDaGI.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::LacosDaGI.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionModeShareDrawable = global::LacosDaGI.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionModeSplitBackground = global::LacosDaGI.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionModeStyle = global::LacosDaGI.Droid.Resource.Attribute.actionModeStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::LacosDaGI.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionOverflowButtonStyle = global::LacosDaGI.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionOverflowMenuStyle = global::LacosDaGI.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionProviderClass = global::LacosDaGI.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.actionViewClass = global::LacosDaGI.Droid.Resource.Attribute.actionViewClass;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.activityChooserViewStyle = global::LacosDaGI.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::LacosDaGI.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.alertDialogCenterButtons = global::LacosDaGI.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.alertDialogStyle = global::LacosDaGI.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.alertDialogTheme = global::LacosDaGI.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.allowStacking = global::LacosDaGI.Droid.Resource.Attribute.allowStacking;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.arrowHeadLength = global::LacosDaGI.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.arrowShaftLength = global::LacosDaGI.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::LacosDaGI.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.background = global::LacosDaGI.Droid.Resource.Attribute.background;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.backgroundSplit = global::LacosDaGI.Droid.Resource.Attribute.backgroundSplit;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.backgroundStacked = global::LacosDaGI.Droid.Resource.Attribute.backgroundStacked;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.backgroundTint = global::LacosDaGI.Droid.Resource.Attribute.backgroundTint;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.backgroundTintMode = global::LacosDaGI.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.barLength = global::LacosDaGI.Droid.Resource.Attribute.barLength;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.behavior_hideable = global::LacosDaGI.Droid.Resource.Attribute.behavior_hideable;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.behavior_overlapTop = global::LacosDaGI.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.behavior_peekHeight = global::LacosDaGI.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.borderWidth = global::LacosDaGI.Droid.Resource.Attribute.borderWidth;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.borderlessButtonStyle = global::LacosDaGI.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.bottomSheetDialogTheme = global::LacosDaGI.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.bottomSheetStyle = global::LacosDaGI.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.buttonBarButtonStyle = global::LacosDaGI.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::LacosDaGI.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::LacosDaGI.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::LacosDaGI.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.buttonBarStyle = global::LacosDaGI.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.buttonPanelSideLayout = global::LacosDaGI.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.buttonStyle = global::LacosDaGI.Droid.Resource.Attribute.buttonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.buttonStyleSmall = global::LacosDaGI.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.buttonTint = global::LacosDaGI.Droid.Resource.Attribute.buttonTint;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.buttonTintMode = global::LacosDaGI.Droid.Resource.Attribute.buttonTintMode;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.cardBackgroundColor = global::LacosDaGI.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.cardCornerRadius = global::LacosDaGI.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.cardElevation = global::LacosDaGI.Droid.Resource.Attribute.cardElevation;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.cardMaxElevation = global::LacosDaGI.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.cardPreventCornerOverlap = global::LacosDaGI.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.cardUseCompatPadding = global::LacosDaGI.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.checkboxStyle = global::LacosDaGI.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.checkedTextViewStyle = global::LacosDaGI.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.closeIcon = global::LacosDaGI.Droid.Resource.Attribute.closeIcon;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.closeItemLayout = global::LacosDaGI.Droid.Resource.Attribute.closeItemLayout;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.collapseContentDescription = global::LacosDaGI.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.collapseIcon = global::LacosDaGI.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.collapsedTitleGravity = global::LacosDaGI.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::LacosDaGI.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.color = global::LacosDaGI.Droid.Resource.Attribute.color;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.colorAccent = global::LacosDaGI.Droid.Resource.Attribute.colorAccent;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.colorButtonNormal = global::LacosDaGI.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.colorControlActivated = global::LacosDaGI.Droid.Resource.Attribute.colorControlActivated;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.colorControlHighlight = global::LacosDaGI.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.colorControlNormal = global::LacosDaGI.Droid.Resource.Attribute.colorControlNormal;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.colorPrimary = global::LacosDaGI.Droid.Resource.Attribute.colorPrimary;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.colorPrimaryDark = global::LacosDaGI.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.colorSwitchThumbNormal = global::LacosDaGI.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.commitIcon = global::LacosDaGI.Droid.Resource.Attribute.commitIcon;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.contentInsetEnd = global::LacosDaGI.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.contentInsetLeft = global::LacosDaGI.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.contentInsetRight = global::LacosDaGI.Droid.Resource.Attribute.contentInsetRight;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.contentInsetStart = global::LacosDaGI.Droid.Resource.Attribute.contentInsetStart;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.contentPadding = global::LacosDaGI.Droid.Resource.Attribute.contentPadding;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.contentPaddingBottom = global::LacosDaGI.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.contentPaddingLeft = global::LacosDaGI.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.contentPaddingRight = global::LacosDaGI.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.contentPaddingTop = global::LacosDaGI.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.contentScrim = global::LacosDaGI.Droid.Resource.Attribute.contentScrim;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.controlBackground = global::LacosDaGI.Droid.Resource.Attribute.controlBackground;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.counterEnabled = global::LacosDaGI.Droid.Resource.Attribute.counterEnabled;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.counterMaxLength = global::LacosDaGI.Droid.Resource.Attribute.counterMaxLength;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.counterOverflowTextAppearance = global::LacosDaGI.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.counterTextAppearance = global::LacosDaGI.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.customNavigationLayout = global::LacosDaGI.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.defaultQueryHint = global::LacosDaGI.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.dialogPreferredPadding = global::LacosDaGI.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.dialogTheme = global::LacosDaGI.Droid.Resource.Attribute.dialogTheme;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.displayOptions = global::LacosDaGI.Droid.Resource.Attribute.displayOptions;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.divider = global::LacosDaGI.Droid.Resource.Attribute.divider;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.dividerHorizontal = global::LacosDaGI.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.dividerPadding = global::LacosDaGI.Droid.Resource.Attribute.dividerPadding;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.dividerVertical = global::LacosDaGI.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.drawableSize = global::LacosDaGI.Droid.Resource.Attribute.drawableSize;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.drawerArrowStyle = global::LacosDaGI.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.dropDownListViewStyle = global::LacosDaGI.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::LacosDaGI.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.editTextBackground = global::LacosDaGI.Droid.Resource.Attribute.editTextBackground;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.editTextColor = global::LacosDaGI.Droid.Resource.Attribute.editTextColor;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.editTextStyle = global::LacosDaGI.Droid.Resource.Attribute.editTextStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.elevation = global::LacosDaGI.Droid.Resource.Attribute.elevation;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.errorEnabled = global::LacosDaGI.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.errorTextAppearance = global::LacosDaGI.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::LacosDaGI.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.expanded = global::LacosDaGI.Droid.Resource.Attribute.expanded;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.expandedTitleGravity = global::LacosDaGI.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.expandedTitleMargin = global::LacosDaGI.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.expandedTitleMarginBottom = global::LacosDaGI.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.expandedTitleMarginEnd = global::LacosDaGI.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.expandedTitleMarginStart = global::LacosDaGI.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.expandedTitleMarginTop = global::LacosDaGI.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.expandedTitleTextAppearance = global::LacosDaGI.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.fabSize = global::LacosDaGI.Droid.Resource.Attribute.fabSize;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.foregroundInsidePadding = global::LacosDaGI.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.gapBetweenBars = global::LacosDaGI.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.goIcon = global::LacosDaGI.Droid.Resource.Attribute.goIcon;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.headerLayout = global::LacosDaGI.Droid.Resource.Attribute.headerLayout;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.height = global::LacosDaGI.Droid.Resource.Attribute.height;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.hideOnContentScroll = global::LacosDaGI.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.hintAnimationEnabled = global::LacosDaGI.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.hintEnabled = global::LacosDaGI.Droid.Resource.Attribute.hintEnabled;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.hintTextAppearance = global::LacosDaGI.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.homeAsUpIndicator = global::LacosDaGI.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.homeLayout = global::LacosDaGI.Droid.Resource.Attribute.homeLayout;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.icon = global::LacosDaGI.Droid.Resource.Attribute.icon;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.iconifiedByDefault = global::LacosDaGI.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.imageButtonStyle = global::LacosDaGI.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.indeterminateProgressStyle = global::LacosDaGI.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.initialActivityCount = global::LacosDaGI.Droid.Resource.Attribute.initialActivityCount;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.insetForeground = global::LacosDaGI.Droid.Resource.Attribute.insetForeground;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.isLightTheme = global::LacosDaGI.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.itemBackground = global::LacosDaGI.Droid.Resource.Attribute.itemBackground;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.itemIconTint = global::LacosDaGI.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.itemPadding = global::LacosDaGI.Droid.Resource.Attribute.itemPadding;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.itemTextAppearance = global::LacosDaGI.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.itemTextColor = global::LacosDaGI.Droid.Resource.Attribute.itemTextColor;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.keylines = global::LacosDaGI.Droid.Resource.Attribute.keylines;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.layout = global::LacosDaGI.Droid.Resource.Attribute.layout;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.layoutManager = global::LacosDaGI.Droid.Resource.Attribute.layoutManager;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.layout_anchor = global::LacosDaGI.Droid.Resource.Attribute.layout_anchor;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.layout_anchorGravity = global::LacosDaGI.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.layout_behavior = global::LacosDaGI.Droid.Resource.Attribute.layout_behavior;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.layout_collapseMode = global::LacosDaGI.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::LacosDaGI.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.layout_keyline = global::LacosDaGI.Droid.Resource.Attribute.layout_keyline;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.layout_scrollFlags = global::LacosDaGI.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.layout_scrollInterpolator = global::LacosDaGI.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::LacosDaGI.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.listDividerAlertDialog = global::LacosDaGI.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.listItemLayout = global::LacosDaGI.Droid.Resource.Attribute.listItemLayout;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.listLayout = global::LacosDaGI.Droid.Resource.Attribute.listLayout;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.listPopupWindowStyle = global::LacosDaGI.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.listPreferredItemHeight = global::LacosDaGI.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::LacosDaGI.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::LacosDaGI.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::LacosDaGI.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::LacosDaGI.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.logo = global::LacosDaGI.Droid.Resource.Attribute.logo;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.logoDescription = global::LacosDaGI.Droid.Resource.Attribute.logoDescription;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.maxActionInlineWidth = global::LacosDaGI.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.maxButtonHeight = global::LacosDaGI.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.measureWithLargestChild = global::LacosDaGI.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.menu = global::LacosDaGI.Droid.Resource.Attribute.menu;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.multiChoiceItemLayout = global::LacosDaGI.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.navigationContentDescription = global::LacosDaGI.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.navigationIcon = global::LacosDaGI.Droid.Resource.Attribute.navigationIcon;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.navigationMode = global::LacosDaGI.Droid.Resource.Attribute.navigationMode;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.overlapAnchor = global::LacosDaGI.Droid.Resource.Attribute.overlapAnchor;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.paddingEnd = global::LacosDaGI.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.paddingStart = global::LacosDaGI.Droid.Resource.Attribute.paddingStart;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.panelBackground = global::LacosDaGI.Droid.Resource.Attribute.panelBackground;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.panelMenuListTheme = global::LacosDaGI.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.panelMenuListWidth = global::LacosDaGI.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.popupMenuStyle = global::LacosDaGI.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.popupTheme = global::LacosDaGI.Droid.Resource.Attribute.popupTheme;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.popupWindowStyle = global::LacosDaGI.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.preserveIconSpacing = global::LacosDaGI.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.pressedTranslationZ = global::LacosDaGI.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.progressBarPadding = global::LacosDaGI.Droid.Resource.Attribute.progressBarPadding;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.progressBarStyle = global::LacosDaGI.Droid.Resource.Attribute.progressBarStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.queryBackground = global::LacosDaGI.Droid.Resource.Attribute.queryBackground;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.queryHint = global::LacosDaGI.Droid.Resource.Attribute.queryHint;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.radioButtonStyle = global::LacosDaGI.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.ratingBarStyle = global::LacosDaGI.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.ratingBarStyleIndicator = global::LacosDaGI.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.ratingBarStyleSmall = global::LacosDaGI.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.reverseLayout = global::LacosDaGI.Droid.Resource.Attribute.reverseLayout;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.rippleColor = global::LacosDaGI.Droid.Resource.Attribute.rippleColor;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.searchHintIcon = global::LacosDaGI.Droid.Resource.Attribute.searchHintIcon;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.searchIcon = global::LacosDaGI.Droid.Resource.Attribute.searchIcon;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.searchViewStyle = global::LacosDaGI.Droid.Resource.Attribute.searchViewStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.seekBarStyle = global::LacosDaGI.Droid.Resource.Attribute.seekBarStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.selectableItemBackground = global::LacosDaGI.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::LacosDaGI.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.showAsAction = global::LacosDaGI.Droid.Resource.Attribute.showAsAction;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.showDividers = global::LacosDaGI.Droid.Resource.Attribute.showDividers;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.showText = global::LacosDaGI.Droid.Resource.Attribute.showText;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.singleChoiceItemLayout = global::LacosDaGI.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.spanCount = global::LacosDaGI.Droid.Resource.Attribute.spanCount;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.spinBars = global::LacosDaGI.Droid.Resource.Attribute.spinBars;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::LacosDaGI.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.spinnerStyle = global::LacosDaGI.Droid.Resource.Attribute.spinnerStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.splitTrack = global::LacosDaGI.Droid.Resource.Attribute.splitTrack;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.srcCompat = global::LacosDaGI.Droid.Resource.Attribute.srcCompat;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.stackFromEnd = global::LacosDaGI.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.state_above_anchor = global::LacosDaGI.Droid.Resource.Attribute.state_above_anchor;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.statusBarBackground = global::LacosDaGI.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.statusBarScrim = global::LacosDaGI.Droid.Resource.Attribute.statusBarScrim;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.submitBackground = global::LacosDaGI.Droid.Resource.Attribute.submitBackground;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.subtitle = global::LacosDaGI.Droid.Resource.Attribute.subtitle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.subtitleTextAppearance = global::LacosDaGI.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.subtitleTextColor = global::LacosDaGI.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.subtitleTextStyle = global::LacosDaGI.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.suggestionRowLayout = global::LacosDaGI.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.switchMinWidth = global::LacosDaGI.Droid.Resource.Attribute.switchMinWidth;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.switchPadding = global::LacosDaGI.Droid.Resource.Attribute.switchPadding;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.switchStyle = global::LacosDaGI.Droid.Resource.Attribute.switchStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.switchTextAppearance = global::LacosDaGI.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.tabBackground = global::LacosDaGI.Droid.Resource.Attribute.tabBackground;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.tabContentStart = global::LacosDaGI.Droid.Resource.Attribute.tabContentStart;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.tabGravity = global::LacosDaGI.Droid.Resource.Attribute.tabGravity;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.tabIndicatorColor = global::LacosDaGI.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.tabIndicatorHeight = global::LacosDaGI.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.tabMaxWidth = global::LacosDaGI.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.tabMinWidth = global::LacosDaGI.Droid.Resource.Attribute.tabMinWidth;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.tabMode = global::LacosDaGI.Droid.Resource.Attribute.tabMode;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.tabPadding = global::LacosDaGI.Droid.Resource.Attribute.tabPadding;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.tabPaddingBottom = global::LacosDaGI.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.tabPaddingEnd = global::LacosDaGI.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.tabPaddingStart = global::LacosDaGI.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.tabPaddingTop = global::LacosDaGI.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.tabSelectedTextColor = global::LacosDaGI.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.tabTextAppearance = global::LacosDaGI.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.tabTextColor = global::LacosDaGI.Droid.Resource.Attribute.tabTextColor;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.textAllCaps = global::LacosDaGI.Droid.Resource.Attribute.textAllCaps;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::LacosDaGI.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.textAppearanceListItem = global::LacosDaGI.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.textAppearanceListItemSmall = global::LacosDaGI.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::LacosDaGI.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::LacosDaGI.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::LacosDaGI.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.textColorAlertDialogListItem = global::LacosDaGI.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.textColorSearchUrl = global::LacosDaGI.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.theme = global::LacosDaGI.Droid.Resource.Attribute.theme;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.thickness = global::LacosDaGI.Droid.Resource.Attribute.thickness;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.thumbTextPadding = global::LacosDaGI.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.title = global::LacosDaGI.Droid.Resource.Attribute.title;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.titleEnabled = global::LacosDaGI.Droid.Resource.Attribute.titleEnabled;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.titleMarginBottom = global::LacosDaGI.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.titleMarginEnd = global::LacosDaGI.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.titleMarginStart = global::LacosDaGI.Droid.Resource.Attribute.titleMarginStart;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.titleMarginTop = global::LacosDaGI.Droid.Resource.Attribute.titleMarginTop;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.titleMargins = global::LacosDaGI.Droid.Resource.Attribute.titleMargins;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.titleTextAppearance = global::LacosDaGI.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.titleTextColor = global::LacosDaGI.Droid.Resource.Attribute.titleTextColor;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.titleTextStyle = global::LacosDaGI.Droid.Resource.Attribute.titleTextStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.toolbarId = global::LacosDaGI.Droid.Resource.Attribute.toolbarId;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::LacosDaGI.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.toolbarStyle = global::LacosDaGI.Droid.Resource.Attribute.toolbarStyle;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.track = global::LacosDaGI.Droid.Resource.Attribute.track;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.useCompatPadding = global::LacosDaGI.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.voiceIcon = global::LacosDaGI.Droid.Resource.Attribute.voiceIcon;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.windowActionBar = global::LacosDaGI.Droid.Resource.Attribute.windowActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.windowActionBarOverlay = global::LacosDaGI.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.windowActionModeOverlay = global::LacosDaGI.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.windowFixedHeightMajor = global::LacosDaGI.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.windowFixedHeightMinor = global::LacosDaGI.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.windowFixedWidthMajor = global::LacosDaGI.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.windowFixedWidthMinor = global::LacosDaGI.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.windowMinWidthMajor = global::LacosDaGI.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.windowMinWidthMinor = global::LacosDaGI.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xamarians.CropImage.Droid.Resource.Attribute.windowNoTitle = global::LacosDaGI.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarians.CropImage.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::LacosDaGI.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarians.CropImage.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::LacosDaGI.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Xamarians.CropImage.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::LacosDaGI.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xamarians.CropImage.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::LacosDaGI.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::LacosDaGI.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.abc_color_highlight_material = global::LacosDaGI.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarians.CropImage.Droid.Resource.Color.abc_input_method_navigation_guard = global::LacosDaGI.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Xamarians.CropImage.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::LacosDaGI.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::LacosDaGI.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.abc_primary_text_material_dark = global::LacosDaGI.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.abc_primary_text_material_light = global::LacosDaGI.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.abc_search_url_text = global::LacosDaGI.Droid.Resource.Color.abc_search_url_text;
+			global::Xamarians.CropImage.Droid.Resource.Color.abc_search_url_text_normal = global::LacosDaGI.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xamarians.CropImage.Droid.Resource.Color.abc_search_url_text_pressed = global::LacosDaGI.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xamarians.CropImage.Droid.Resource.Color.abc_search_url_text_selected = global::LacosDaGI.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xamarians.CropImage.Droid.Resource.Color.abc_secondary_text_material_dark = global::LacosDaGI.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.abc_secondary_text_material_light = global::LacosDaGI.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.accent_material_dark = global::LacosDaGI.Droid.Resource.Color.accent_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.accent_material_light = global::LacosDaGI.Droid.Resource.Color.accent_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.background_floating_material_dark = global::LacosDaGI.Droid.Resource.Color.background_floating_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.background_floating_material_light = global::LacosDaGI.Droid.Resource.Color.background_floating_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.background_material_dark = global::LacosDaGI.Droid.Resource.Color.background_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.background_material_light = global::LacosDaGI.Droid.Resource.Color.background_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::LacosDaGI.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.bright_foreground_disabled_material_light = global::LacosDaGI.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::LacosDaGI.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.bright_foreground_inverse_material_light = global::LacosDaGI.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.bright_foreground_material_dark = global::LacosDaGI.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.bright_foreground_material_light = global::LacosDaGI.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.button_material_dark = global::LacosDaGI.Droid.Resource.Color.button_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.button_material_light = global::LacosDaGI.Droid.Resource.Color.button_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.cardview_dark_background = global::LacosDaGI.Droid.Resource.Color.cardview_dark_background;
+			global::Xamarians.CropImage.Droid.Resource.Color.cardview_light_background = global::LacosDaGI.Droid.Resource.Color.cardview_light_background;
+			global::Xamarians.CropImage.Droid.Resource.Color.cardview_shadow_end_color = global::LacosDaGI.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xamarians.CropImage.Droid.Resource.Color.cardview_shadow_start_color = global::LacosDaGI.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarians.CropImage.Droid.Resource.Color.design_fab_shadow_end_color = global::LacosDaGI.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xamarians.CropImage.Droid.Resource.Color.design_fab_shadow_mid_color = global::LacosDaGI.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xamarians.CropImage.Droid.Resource.Color.design_fab_shadow_start_color = global::LacosDaGI.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xamarians.CropImage.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::LacosDaGI.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xamarians.CropImage.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::LacosDaGI.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xamarians.CropImage.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::LacosDaGI.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xamarians.CropImage.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::LacosDaGI.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarians.CropImage.Droid.Resource.Color.design_snackbar_background_color = global::LacosDaGI.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xamarians.CropImage.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::LacosDaGI.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.dim_foreground_disabled_material_light = global::LacosDaGI.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.dim_foreground_material_dark = global::LacosDaGI.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.dim_foreground_material_light = global::LacosDaGI.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.foreground_material_dark = global::LacosDaGI.Droid.Resource.Color.foreground_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.foreground_material_light = global::LacosDaGI.Droid.Resource.Color.foreground_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.highlighted_text_material_dark = global::LacosDaGI.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.highlighted_text_material_light = global::LacosDaGI.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.material_blue_grey_800 = global::LacosDaGI.Droid.Resource.Color.material_blue_grey_800;
+			global::Xamarians.CropImage.Droid.Resource.Color.material_blue_grey_900 = global::LacosDaGI.Droid.Resource.Color.material_blue_grey_900;
+			global::Xamarians.CropImage.Droid.Resource.Color.material_blue_grey_950 = global::LacosDaGI.Droid.Resource.Color.material_blue_grey_950;
+			global::Xamarians.CropImage.Droid.Resource.Color.material_deep_teal_200 = global::LacosDaGI.Droid.Resource.Color.material_deep_teal_200;
+			global::Xamarians.CropImage.Droid.Resource.Color.material_deep_teal_500 = global::LacosDaGI.Droid.Resource.Color.material_deep_teal_500;
+			global::Xamarians.CropImage.Droid.Resource.Color.material_grey_100 = global::LacosDaGI.Droid.Resource.Color.material_grey_100;
+			global::Xamarians.CropImage.Droid.Resource.Color.material_grey_300 = global::LacosDaGI.Droid.Resource.Color.material_grey_300;
+			global::Xamarians.CropImage.Droid.Resource.Color.material_grey_50 = global::LacosDaGI.Droid.Resource.Color.material_grey_50;
+			global::Xamarians.CropImage.Droid.Resource.Color.material_grey_600 = global::LacosDaGI.Droid.Resource.Color.material_grey_600;
+			global::Xamarians.CropImage.Droid.Resource.Color.material_grey_800 = global::LacosDaGI.Droid.Resource.Color.material_grey_800;
+			global::Xamarians.CropImage.Droid.Resource.Color.material_grey_850 = global::LacosDaGI.Droid.Resource.Color.material_grey_850;
+			global::Xamarians.CropImage.Droid.Resource.Color.material_grey_900 = global::LacosDaGI.Droid.Resource.Color.material_grey_900;
+			global::Xamarians.CropImage.Droid.Resource.Color.primary_dark_material_dark = global::LacosDaGI.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.primary_dark_material_light = global::LacosDaGI.Droid.Resource.Color.primary_dark_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.primary_material_dark = global::LacosDaGI.Droid.Resource.Color.primary_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.primary_material_light = global::LacosDaGI.Droid.Resource.Color.primary_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.primary_text_default_material_dark = global::LacosDaGI.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.primary_text_default_material_light = global::LacosDaGI.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.primary_text_disabled_material_dark = global::LacosDaGI.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.primary_text_disabled_material_light = global::LacosDaGI.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.ripple_material_dark = global::LacosDaGI.Droid.Resource.Color.ripple_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.ripple_material_light = global::LacosDaGI.Droid.Resource.Color.ripple_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.secondary_text_default_material_dark = global::LacosDaGI.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.secondary_text_default_material_light = global::LacosDaGI.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.secondary_text_disabled_material_dark = global::LacosDaGI.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.secondary_text_disabled_material_light = global::LacosDaGI.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::LacosDaGI.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.switch_thumb_disabled_material_light = global::LacosDaGI.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.switch_thumb_material_dark = global::LacosDaGI.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.switch_thumb_material_light = global::LacosDaGI.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Color.switch_thumb_normal_material_dark = global::LacosDaGI.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Color.switch_thumb_normal_material_light = global::LacosDaGI.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::LacosDaGI.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::LacosDaGI.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::LacosDaGI.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::LacosDaGI.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::LacosDaGI.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::LacosDaGI.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::LacosDaGI.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::LacosDaGI.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::LacosDaGI.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::LacosDaGI.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::LacosDaGI.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_action_button_min_height_material = global::LacosDaGI.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_action_button_min_width_material = global::LacosDaGI.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::LacosDaGI.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::LacosDaGI.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::LacosDaGI.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::LacosDaGI.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::LacosDaGI.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::LacosDaGI.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::LacosDaGI.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_control_corner_material = global::LacosDaGI.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_control_inset_material = global::LacosDaGI.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_control_padding_material = global::LacosDaGI.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::LacosDaGI.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::LacosDaGI.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::LacosDaGI.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::LacosDaGI.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_dialog_min_width_major = global::LacosDaGI.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::LacosDaGI.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_dialog_padding_material = global::LacosDaGI.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::LacosDaGI.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::LacosDaGI.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::LacosDaGI.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::LacosDaGI.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::LacosDaGI.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::LacosDaGI.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::LacosDaGI.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::LacosDaGI.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::LacosDaGI.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_floating_window_z = global::LacosDaGI.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::LacosDaGI.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_panel_menu_list_width = global::LacosDaGI.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_search_view_preferred_width = global::LacosDaGI.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::LacosDaGI.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::LacosDaGI.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::LacosDaGI.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_switch_padding = global::LacosDaGI.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_text_size_body_1_material = global::LacosDaGI.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_text_size_body_2_material = global::LacosDaGI.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_text_size_button_material = global::LacosDaGI.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_text_size_caption_material = global::LacosDaGI.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_text_size_display_1_material = global::LacosDaGI.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_text_size_display_2_material = global::LacosDaGI.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_text_size_display_3_material = global::LacosDaGI.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_text_size_display_4_material = global::LacosDaGI.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_text_size_headline_material = global::LacosDaGI.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_text_size_large_material = global::LacosDaGI.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_text_size_medium_material = global::LacosDaGI.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_text_size_menu_material = global::LacosDaGI.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_text_size_small_material = global::LacosDaGI.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_text_size_subhead_material = global::LacosDaGI.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::LacosDaGI.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_text_size_title_material = global::LacosDaGI.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::LacosDaGI.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::LacosDaGI.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.cardview_default_elevation = global::LacosDaGI.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.cardview_default_radius = global::LacosDaGI.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_appbar_elevation = global::LacosDaGI.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::LacosDaGI.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_fab_border_width = global::LacosDaGI.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_fab_elevation = global::LacosDaGI.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_fab_image_size = global::LacosDaGI.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_fab_size_mini = global::LacosDaGI.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_fab_size_normal = global::LacosDaGI.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::LacosDaGI.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_navigation_elevation = global::LacosDaGI.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_navigation_icon_padding = global::LacosDaGI.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_navigation_icon_size = global::LacosDaGI.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_navigation_max_width = global::LacosDaGI.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_navigation_padding_bottom = global::LacosDaGI.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::LacosDaGI.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::LacosDaGI.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::LacosDaGI.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_snackbar_elevation = global::LacosDaGI.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::LacosDaGI.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_snackbar_max_width = global::LacosDaGI.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_snackbar_min_width = global::LacosDaGI.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::LacosDaGI.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::LacosDaGI.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::LacosDaGI.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_snackbar_text_size = global::LacosDaGI.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_tab_max_width = global::LacosDaGI.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::LacosDaGI.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_tab_text_size = global::LacosDaGI.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.design_tab_text_size_2line = global::LacosDaGI.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.disabled_alpha_material_dark = global::LacosDaGI.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.disabled_alpha_material_light = global::LacosDaGI.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.highlight_alpha_material_colored = global::LacosDaGI.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.highlight_alpha_material_dark = global::LacosDaGI.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.highlight_alpha_material_light = global::LacosDaGI.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::LacosDaGI.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::LacosDaGI.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::LacosDaGI.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.notification_large_icon_height = global::LacosDaGI.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.notification_large_icon_width = global::LacosDaGI.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarians.CropImage.Droid.Resource.Dimension.notification_subtext_size = global::LacosDaGI.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::LacosDaGI.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::LacosDaGI.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_btn_borderless_material = global::LacosDaGI.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_btn_check_material = global::LacosDaGI.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::LacosDaGI.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::LacosDaGI.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_btn_colored_material = global::LacosDaGI.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::LacosDaGI.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_btn_radio_material = global::LacosDaGI.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::LacosDaGI.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::LacosDaGI.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::LacosDaGI.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::LacosDaGI.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::LacosDaGI.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_cab_background_top_material = global::LacosDaGI.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::LacosDaGI.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_control_background_material = global::LacosDaGI.Droid.Resource.Drawable.abc_control_background_material;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_edit_text_material = global::LacosDaGI.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::LacosDaGI.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::LacosDaGI.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::LacosDaGI.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::LacosDaGI.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::LacosDaGI.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::LacosDaGI.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::LacosDaGI.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::LacosDaGI.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::LacosDaGI.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::LacosDaGI.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_item_background_holo_dark = global::LacosDaGI.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_item_background_holo_light = global::LacosDaGI.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::LacosDaGI.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_list_focused_holo = global::LacosDaGI.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_list_longpressed_holo = global::LacosDaGI.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::LacosDaGI.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::LacosDaGI.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::LacosDaGI.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::LacosDaGI.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::LacosDaGI.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::LacosDaGI.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::LacosDaGI.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_list_selector_holo_light = global::LacosDaGI.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::LacosDaGI.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::LacosDaGI.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::LacosDaGI.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_ratingbar_small_material = global::LacosDaGI.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::LacosDaGI.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::LacosDaGI.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::LacosDaGI.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::LacosDaGI.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::LacosDaGI.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::LacosDaGI.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_seekbar_track_material = global::LacosDaGI.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::LacosDaGI.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::LacosDaGI.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_switch_thumb_material = global::LacosDaGI.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::LacosDaGI.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_tab_indicator_material = global::LacosDaGI.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::LacosDaGI.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_text_cursor_material = global::LacosDaGI.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::LacosDaGI.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::LacosDaGI.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::LacosDaGI.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::LacosDaGI.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.abc_textfield_search_material = global::LacosDaGI.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.design_fab_background = global::LacosDaGI.Droid.Resource.Drawable.design_fab_background;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.design_snackbar_background = global::LacosDaGI.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.notification_template_icon_bg = global::LacosDaGI.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarians.CropImage.Droid.Resource.Drawable.rotate_button = global::LacosDaGI.Droid.Resource.Drawable.rotate_button;
+			global::Xamarians.CropImage.Droid.Resource.Id.action0 = global::LacosDaGI.Droid.Resource.Id.action0;
+			global::Xamarians.CropImage.Droid.Resource.Id.action_bar = global::LacosDaGI.Droid.Resource.Id.action_bar;
+			global::Xamarians.CropImage.Droid.Resource.Id.action_bar_activity_content = global::LacosDaGI.Droid.Resource.Id.action_bar_activity_content;
+			global::Xamarians.CropImage.Droid.Resource.Id.action_bar_container = global::LacosDaGI.Droid.Resource.Id.action_bar_container;
+			global::Xamarians.CropImage.Droid.Resource.Id.action_bar_root = global::LacosDaGI.Droid.Resource.Id.action_bar_root;
+			global::Xamarians.CropImage.Droid.Resource.Id.action_bar_spinner = global::LacosDaGI.Droid.Resource.Id.action_bar_spinner;
+			global::Xamarians.CropImage.Droid.Resource.Id.action_bar_subtitle = global::LacosDaGI.Droid.Resource.Id.action_bar_subtitle;
+			global::Xamarians.CropImage.Droid.Resource.Id.action_bar_title = global::LacosDaGI.Droid.Resource.Id.action_bar_title;
+			global::Xamarians.CropImage.Droid.Resource.Id.action_context_bar = global::LacosDaGI.Droid.Resource.Id.action_context_bar;
+			global::Xamarians.CropImage.Droid.Resource.Id.action_divider = global::LacosDaGI.Droid.Resource.Id.action_divider;
+			global::Xamarians.CropImage.Droid.Resource.Id.action_menu_divider = global::LacosDaGI.Droid.Resource.Id.action_menu_divider;
+			global::Xamarians.CropImage.Droid.Resource.Id.action_menu_presenter = global::LacosDaGI.Droid.Resource.Id.action_menu_presenter;
+			global::Xamarians.CropImage.Droid.Resource.Id.action_mode_bar = global::LacosDaGI.Droid.Resource.Id.action_mode_bar;
+			global::Xamarians.CropImage.Droid.Resource.Id.action_mode_bar_stub = global::LacosDaGI.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xamarians.CropImage.Droid.Resource.Id.action_mode_close_button = global::LacosDaGI.Droid.Resource.Id.action_mode_close_button;
+			global::Xamarians.CropImage.Droid.Resource.Id.activity_chooser_view_content = global::LacosDaGI.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xamarians.CropImage.Droid.Resource.Id.alertTitle = global::LacosDaGI.Droid.Resource.Id.alertTitle;
+			global::Xamarians.CropImage.Droid.Resource.Id.always = global::LacosDaGI.Droid.Resource.Id.always;
+			global::Xamarians.CropImage.Droid.Resource.Id.beginning = global::LacosDaGI.Droid.Resource.Id.beginning;
+			global::Xamarians.CropImage.Droid.Resource.Id.bottom = global::LacosDaGI.Droid.Resource.Id.bottom;
+			global::Xamarians.CropImage.Droid.Resource.Id.buttonPanel = global::LacosDaGI.Droid.Resource.Id.buttonPanel;
+			global::Xamarians.CropImage.Droid.Resource.Id.cancel = global::LacosDaGI.Droid.Resource.Id.cancel;
+			global::Xamarians.CropImage.Droid.Resource.Id.cancel_action = global::LacosDaGI.Droid.Resource.Id.cancel_action;
+			global::Xamarians.CropImage.Droid.Resource.Id.center = global::LacosDaGI.Droid.Resource.Id.center;
+			global::Xamarians.CropImage.Droid.Resource.Id.center_horizontal = global::LacosDaGI.Droid.Resource.Id.center_horizontal;
+			global::Xamarians.CropImage.Droid.Resource.Id.center_vertical = global::LacosDaGI.Droid.Resource.Id.center_vertical;
+			global::Xamarians.CropImage.Droid.Resource.Id.checkbox = global::LacosDaGI.Droid.Resource.Id.checkbox;
+			global::Xamarians.CropImage.Droid.Resource.Id.chronometer = global::LacosDaGI.Droid.Resource.Id.chronometer;
+			global::Xamarians.CropImage.Droid.Resource.Id.clip_horizontal = global::LacosDaGI.Droid.Resource.Id.clip_horizontal;
+			global::Xamarians.CropImage.Droid.Resource.Id.clip_vertical = global::LacosDaGI.Droid.Resource.Id.clip_vertical;
+			global::Xamarians.CropImage.Droid.Resource.Id.collapseActionView = global::LacosDaGI.Droid.Resource.Id.collapseActionView;
+			global::Xamarians.CropImage.Droid.Resource.Id.contentPanel = global::LacosDaGI.Droid.Resource.Id.contentPanel;
+			global::Xamarians.CropImage.Droid.Resource.Id.custom = global::LacosDaGI.Droid.Resource.Id.custom;
+			global::Xamarians.CropImage.Droid.Resource.Id.customPanel = global::LacosDaGI.Droid.Resource.Id.customPanel;
+			global::Xamarians.CropImage.Droid.Resource.Id.decor_content_parent = global::LacosDaGI.Droid.Resource.Id.decor_content_parent;
+			global::Xamarians.CropImage.Droid.Resource.Id.default_activity_button = global::LacosDaGI.Droid.Resource.Id.default_activity_button;
+			global::Xamarians.CropImage.Droid.Resource.Id.design_bottom_sheet = global::LacosDaGI.Droid.Resource.Id.design_bottom_sheet;
+			global::Xamarians.CropImage.Droid.Resource.Id.design_menu_item_action_area = global::LacosDaGI.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xamarians.CropImage.Droid.Resource.Id.design_menu_item_action_area_stub = global::LacosDaGI.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xamarians.CropImage.Droid.Resource.Id.design_menu_item_text = global::LacosDaGI.Droid.Resource.Id.design_menu_item_text;
+			global::Xamarians.CropImage.Droid.Resource.Id.design_navigation_view = global::LacosDaGI.Droid.Resource.Id.design_navigation_view;
+			global::Xamarians.CropImage.Droid.Resource.Id.disableHome = global::LacosDaGI.Droid.Resource.Id.disableHome;
+			global::Xamarians.CropImage.Droid.Resource.Id.done = global::LacosDaGI.Droid.Resource.Id.done;
+			global::Xamarians.CropImage.Droid.Resource.Id.edit_query = global::LacosDaGI.Droid.Resource.Id.edit_query;
+			global::Xamarians.CropImage.Droid.Resource.Id.end = global::LacosDaGI.Droid.Resource.Id.end;
+			global::Xamarians.CropImage.Droid.Resource.Id.end_padder = global::LacosDaGI.Droid.Resource.Id.end_padder;
+			global::Xamarians.CropImage.Droid.Resource.Id.enterAlways = global::LacosDaGI.Droid.Resource.Id.enterAlways;
+			global::Xamarians.CropImage.Droid.Resource.Id.enterAlwaysCollapsed = global::LacosDaGI.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Xamarians.CropImage.Droid.Resource.Id.exitUntilCollapsed = global::LacosDaGI.Droid.Resource.Id.exitUntilCollapsed;
+			global::Xamarians.CropImage.Droid.Resource.Id.expand_activities_button = global::LacosDaGI.Droid.Resource.Id.expand_activities_button;
+			global::Xamarians.CropImage.Droid.Resource.Id.expanded_menu = global::LacosDaGI.Droid.Resource.Id.expanded_menu;
+			global::Xamarians.CropImage.Droid.Resource.Id.fill = global::LacosDaGI.Droid.Resource.Id.fill;
+			global::Xamarians.CropImage.Droid.Resource.Id.fill_horizontal = global::LacosDaGI.Droid.Resource.Id.fill_horizontal;
+			global::Xamarians.CropImage.Droid.Resource.Id.fill_vertical = global::LacosDaGI.Droid.Resource.Id.fill_vertical;
+			global::Xamarians.CropImage.Droid.Resource.Id.@fixed = global::LacosDaGI.Droid.Resource.Id.@fixed;
+			global::Xamarians.CropImage.Droid.Resource.Id.home = global::LacosDaGI.Droid.Resource.Id.home;
+			global::Xamarians.CropImage.Droid.Resource.Id.homeAsUp = global::LacosDaGI.Droid.Resource.Id.homeAsUp;
+			global::Xamarians.CropImage.Droid.Resource.Id.icon = global::LacosDaGI.Droid.Resource.Id.icon;
+			global::Xamarians.CropImage.Droid.Resource.Id.ifRoom = global::LacosDaGI.Droid.Resource.Id.ifRoom;
+			global::Xamarians.CropImage.Droid.Resource.Id.image = global::LacosDaGI.Droid.Resource.Id.image;
+			global::Xamarians.CropImage.Droid.Resource.Id.info = global::LacosDaGI.Droid.Resource.Id.info;
+			global::Xamarians.CropImage.Droid.Resource.Id.item_touch_helper_previous_elevation = global::LacosDaGI.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xamarians.CropImage.Droid.Resource.Id.left = global::LacosDaGI.Droid.Resource.Id.left;
+			global::Xamarians.CropImage.Droid.Resource.Id.line1 = global::LacosDaGI.Droid.Resource.Id.line1;
+			global::Xamarians.CropImage.Droid.Resource.Id.line3 = global::LacosDaGI.Droid.Resource.Id.line3;
+			global::Xamarians.CropImage.Droid.Resource.Id.listMode = global::LacosDaGI.Droid.Resource.Id.listMode;
+			global::Xamarians.CropImage.Droid.Resource.Id.list_item = global::LacosDaGI.Droid.Resource.Id.list_item;
+			global::Xamarians.CropImage.Droid.Resource.Id.media_actions = global::LacosDaGI.Droid.Resource.Id.media_actions;
+			global::Xamarians.CropImage.Droid.Resource.Id.middle = global::LacosDaGI.Droid.Resource.Id.middle;
+			global::Xamarians.CropImage.Droid.Resource.Id.mini = global::LacosDaGI.Droid.Resource.Id.mini;
+			global::Xamarians.CropImage.Droid.Resource.Id.multiply = global::LacosDaGI.Droid.Resource.Id.multiply;
+			global::Xamarians.CropImage.Droid.Resource.Id.navigation_header_container = global::LacosDaGI.Droid.Resource.Id.navigation_header_container;
+			global::Xamarians.CropImage.Droid.Resource.Id.never = global::LacosDaGI.Droid.Resource.Id.never;
+			global::Xamarians.CropImage.Droid.Resource.Id.none = global::LacosDaGI.Droid.Resource.Id.none;
+			global::Xamarians.CropImage.Droid.Resource.Id.normal = global::LacosDaGI.Droid.Resource.Id.normal;
+			global::Xamarians.CropImage.Droid.Resource.Id.parallax = global::LacosDaGI.Droid.Resource.Id.parallax;
+			global::Xamarians.CropImage.Droid.Resource.Id.parentPanel = global::LacosDaGI.Droid.Resource.Id.parentPanel;
+			global::Xamarians.CropImage.Droid.Resource.Id.pin = global::LacosDaGI.Droid.Resource.Id.pin;
+			global::Xamarians.CropImage.Droid.Resource.Id.progress_circular = global::LacosDaGI.Droid.Resource.Id.progress_circular;
+			global::Xamarians.CropImage.Droid.Resource.Id.progress_horizontal = global::LacosDaGI.Droid.Resource.Id.progress_horizontal;
+			global::Xamarians.CropImage.Droid.Resource.Id.radio = global::LacosDaGI.Droid.Resource.Id.radio;
+			global::Xamarians.CropImage.Droid.Resource.Id.right = global::LacosDaGI.Droid.Resource.Id.right;
+			global::Xamarians.CropImage.Droid.Resource.Id.rotateLeft = global::LacosDaGI.Droid.Resource.Id.rotateLeft;
+			global::Xamarians.CropImage.Droid.Resource.Id.screen = global::LacosDaGI.Droid.Resource.Id.screen;
+			global::Xamarians.CropImage.Droid.Resource.Id.scroll = global::LacosDaGI.Droid.Resource.Id.scroll;
+			global::Xamarians.CropImage.Droid.Resource.Id.scrollIndicatorDown = global::LacosDaGI.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xamarians.CropImage.Droid.Resource.Id.scrollIndicatorUp = global::LacosDaGI.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xamarians.CropImage.Droid.Resource.Id.scrollView = global::LacosDaGI.Droid.Resource.Id.scrollView;
+			global::Xamarians.CropImage.Droid.Resource.Id.scrollable = global::LacosDaGI.Droid.Resource.Id.scrollable;
+			global::Xamarians.CropImage.Droid.Resource.Id.search_badge = global::LacosDaGI.Droid.Resource.Id.search_badge;
+			global::Xamarians.CropImage.Droid.Resource.Id.search_bar = global::LacosDaGI.Droid.Resource.Id.search_bar;
+			global::Xamarians.CropImage.Droid.Resource.Id.search_button = global::LacosDaGI.Droid.Resource.Id.search_button;
+			global::Xamarians.CropImage.Droid.Resource.Id.search_close_btn = global::LacosDaGI.Droid.Resource.Id.search_close_btn;
+			global::Xamarians.CropImage.Droid.Resource.Id.search_edit_frame = global::LacosDaGI.Droid.Resource.Id.search_edit_frame;
+			global::Xamarians.CropImage.Droid.Resource.Id.search_go_btn = global::LacosDaGI.Droid.Resource.Id.search_go_btn;
+			global::Xamarians.CropImage.Droid.Resource.Id.search_mag_icon = global::LacosDaGI.Droid.Resource.Id.search_mag_icon;
+			global::Xamarians.CropImage.Droid.Resource.Id.search_plate = global::LacosDaGI.Droid.Resource.Id.search_plate;
+			global::Xamarians.CropImage.Droid.Resource.Id.search_src_text = global::LacosDaGI.Droid.Resource.Id.search_src_text;
+			global::Xamarians.CropImage.Droid.Resource.Id.search_voice_btn = global::LacosDaGI.Droid.Resource.Id.search_voice_btn;
+			global::Xamarians.CropImage.Droid.Resource.Id.select_dialog_listview = global::LacosDaGI.Droid.Resource.Id.select_dialog_listview;
+			global::Xamarians.CropImage.Droid.Resource.Id.shortcut = global::LacosDaGI.Droid.Resource.Id.shortcut;
+			global::Xamarians.CropImage.Droid.Resource.Id.showCustom = global::LacosDaGI.Droid.Resource.Id.showCustom;
+			global::Xamarians.CropImage.Droid.Resource.Id.showHome = global::LacosDaGI.Droid.Resource.Id.showHome;
+			global::Xamarians.CropImage.Droid.Resource.Id.showTitle = global::LacosDaGI.Droid.Resource.Id.showTitle;
+			global::Xamarians.CropImage.Droid.Resource.Id.snackbar_action = global::LacosDaGI.Droid.Resource.Id.snackbar_action;
+			global::Xamarians.CropImage.Droid.Resource.Id.snackbar_text = global::LacosDaGI.Droid.Resource.Id.snackbar_text;
+			global::Xamarians.CropImage.Droid.Resource.Id.snap = global::LacosDaGI.Droid.Resource.Id.snap;
+			global::Xamarians.CropImage.Droid.Resource.Id.spacer = global::LacosDaGI.Droid.Resource.Id.spacer;
+			global::Xamarians.CropImage.Droid.Resource.Id.split_action_bar = global::LacosDaGI.Droid.Resource.Id.split_action_bar;
+			global::Xamarians.CropImage.Droid.Resource.Id.src_atop = global::LacosDaGI.Droid.Resource.Id.src_atop;
+			global::Xamarians.CropImage.Droid.Resource.Id.src_in = global::LacosDaGI.Droid.Resource.Id.src_in;
+			global::Xamarians.CropImage.Droid.Resource.Id.src_over = global::LacosDaGI.Droid.Resource.Id.src_over;
+			global::Xamarians.CropImage.Droid.Resource.Id.start = global::LacosDaGI.Droid.Resource.Id.start;
+			global::Xamarians.CropImage.Droid.Resource.Id.status_bar_latest_event_content = global::LacosDaGI.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xamarians.CropImage.Droid.Resource.Id.submit_area = global::LacosDaGI.Droid.Resource.Id.submit_area;
+			global::Xamarians.CropImage.Droid.Resource.Id.tabMode = global::LacosDaGI.Droid.Resource.Id.tabMode;
+			global::Xamarians.CropImage.Droid.Resource.Id.text = global::LacosDaGI.Droid.Resource.Id.text;
+			global::Xamarians.CropImage.Droid.Resource.Id.text2 = global::LacosDaGI.Droid.Resource.Id.text2;
+			global::Xamarians.CropImage.Droid.Resource.Id.textSpacerNoButtons = global::LacosDaGI.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xamarians.CropImage.Droid.Resource.Id.time = global::LacosDaGI.Droid.Resource.Id.time;
+			global::Xamarians.CropImage.Droid.Resource.Id.title = global::LacosDaGI.Droid.Resource.Id.title;
+			global::Xamarians.CropImage.Droid.Resource.Id.title_template = global::LacosDaGI.Droid.Resource.Id.title_template;
+			global::Xamarians.CropImage.Droid.Resource.Id.top = global::LacosDaGI.Droid.Resource.Id.top;
+			global::Xamarians.CropImage.Droid.Resource.Id.topPanel = global::LacosDaGI.Droid.Resource.Id.topPanel;
+			global::Xamarians.CropImage.Droid.Resource.Id.touch_outside = global::LacosDaGI.Droid.Resource.Id.touch_outside;
+			global::Xamarians.CropImage.Droid.Resource.Id.up = global::LacosDaGI.Droid.Resource.Id.up;
+			global::Xamarians.CropImage.Droid.Resource.Id.useLogo = global::LacosDaGI.Droid.Resource.Id.useLogo;
+			global::Xamarians.CropImage.Droid.Resource.Id.view_offset_helper = global::LacosDaGI.Droid.Resource.Id.view_offset_helper;
+			global::Xamarians.CropImage.Droid.Resource.Id.withText = global::LacosDaGI.Droid.Resource.Id.withText;
+			global::Xamarians.CropImage.Droid.Resource.Id.wrap_content = global::LacosDaGI.Droid.Resource.Id.wrap_content;
+			global::Xamarians.CropImage.Droid.Resource.Integer.abc_config_activityDefaultDur = global::LacosDaGI.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xamarians.CropImage.Droid.Resource.Integer.abc_config_activityShortDur = global::LacosDaGI.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xamarians.CropImage.Droid.Resource.Integer.bottom_sheet_slide_duration = global::LacosDaGI.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xamarians.CropImage.Droid.Resource.Integer.cancel_button_image_alpha = global::LacosDaGI.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xamarians.CropImage.Droid.Resource.Integer.design_snackbar_text_max_lines = global::LacosDaGI.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xamarians.CropImage.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::LacosDaGI.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_action_bar_title_item = global::LacosDaGI.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_action_bar_up_container = global::LacosDaGI.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_action_menu_item_layout = global::LacosDaGI.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_action_menu_layout = global::LacosDaGI.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_action_mode_bar = global::LacosDaGI.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_action_mode_close_item_material = global::LacosDaGI.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_activity_chooser_view = global::LacosDaGI.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::LacosDaGI.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::LacosDaGI.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_alert_dialog_material = global::LacosDaGI.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_dialog_title_material = global::LacosDaGI.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_expanded_menu_layout = global::LacosDaGI.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::LacosDaGI.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_list_menu_item_icon = global::LacosDaGI.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_list_menu_item_layout = global::LacosDaGI.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_list_menu_item_radio = global::LacosDaGI.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_popup_menu_item_layout = global::LacosDaGI.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_screen_content_include = global::LacosDaGI.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_screen_simple = global::LacosDaGI.Droid.Resource.Layout.abc_screen_simple;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::LacosDaGI.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_screen_toolbar = global::LacosDaGI.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::LacosDaGI.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_search_view = global::LacosDaGI.Droid.Resource.Layout.abc_search_view;
+			global::Xamarians.CropImage.Droid.Resource.Layout.abc_select_dialog_material = global::LacosDaGI.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xamarians.CropImage.Droid.Resource.Layout.cropimage = global::LacosDaGI.Droid.Resource.Layout.cropimage;
+			global::Xamarians.CropImage.Droid.Resource.Layout.design_bottom_sheet_dialog = global::LacosDaGI.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xamarians.CropImage.Droid.Resource.Layout.design_layout_snackbar = global::LacosDaGI.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xamarians.CropImage.Droid.Resource.Layout.design_layout_snackbar_include = global::LacosDaGI.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xamarians.CropImage.Droid.Resource.Layout.design_layout_tab_icon = global::LacosDaGI.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xamarians.CropImage.Droid.Resource.Layout.design_layout_tab_text = global::LacosDaGI.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xamarians.CropImage.Droid.Resource.Layout.design_menu_item_action_area = global::LacosDaGI.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xamarians.CropImage.Droid.Resource.Layout.design_navigation_item = global::LacosDaGI.Droid.Resource.Layout.design_navigation_item;
+			global::Xamarians.CropImage.Droid.Resource.Layout.design_navigation_item_header = global::LacosDaGI.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xamarians.CropImage.Droid.Resource.Layout.design_navigation_item_separator = global::LacosDaGI.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xamarians.CropImage.Droid.Resource.Layout.design_navigation_item_subheader = global::LacosDaGI.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xamarians.CropImage.Droid.Resource.Layout.design_navigation_menu = global::LacosDaGI.Droid.Resource.Layout.design_navigation_menu;
+			global::Xamarians.CropImage.Droid.Resource.Layout.design_navigation_menu_item = global::LacosDaGI.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarians.CropImage.Droid.Resource.Layout.notification_media_action = global::LacosDaGI.Droid.Resource.Layout.notification_media_action;
+			global::Xamarians.CropImage.Droid.Resource.Layout.notification_media_cancel_action = global::LacosDaGI.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xamarians.CropImage.Droid.Resource.Layout.notification_template_big_media = global::LacosDaGI.Droid.Resource.Layout.notification_template_big_media;
+			global::Xamarians.CropImage.Droid.Resource.Layout.notification_template_big_media_narrow = global::LacosDaGI.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xamarians.CropImage.Droid.Resource.Layout.notification_template_media = global::LacosDaGI.Droid.Resource.Layout.notification_template_media;
+			global::Xamarians.CropImage.Droid.Resource.Layout.notification_template_part_chronometer = global::LacosDaGI.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarians.CropImage.Droid.Resource.Layout.notification_template_part_time = global::LacosDaGI.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarians.CropImage.Droid.Resource.Layout.select_dialog_item_material = global::LacosDaGI.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xamarians.CropImage.Droid.Resource.Layout.select_dialog_multichoice_material = global::LacosDaGI.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xamarians.CropImage.Droid.Resource.Layout.select_dialog_singlechoice_material = global::LacosDaGI.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarians.CropImage.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::LacosDaGI.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarians.CropImage.Droid.Resource.String.ApplicationName = global::LacosDaGI.Droid.Resource.String.ApplicationName;
+			global::Xamarians.CropImage.Droid.Resource.String.Hello = global::LacosDaGI.Droid.Resource.String.Hello;
+			global::Xamarians.CropImage.Droid.Resource.String.abc_action_bar_home_description = global::LacosDaGI.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xamarians.CropImage.Droid.Resource.String.abc_action_bar_up_description = global::LacosDaGI.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xamarians.CropImage.Droid.Resource.String.abc_action_menu_overflow_description = global::LacosDaGI.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xamarians.CropImage.Droid.Resource.String.abc_action_mode_done = global::LacosDaGI.Droid.Resource.String.abc_action_mode_done;
+			global::Xamarians.CropImage.Droid.Resource.String.abc_activity_chooser_view_see_all = global::LacosDaGI.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xamarians.CropImage.Droid.Resource.String.abc_activitychooserview_choose_application = global::LacosDaGI.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xamarians.CropImage.Droid.Resource.String.abc_capital_off = global::LacosDaGI.Droid.Resource.String.abc_capital_off;
+			global::Xamarians.CropImage.Droid.Resource.String.abc_capital_on = global::LacosDaGI.Droid.Resource.String.abc_capital_on;
+			global::Xamarians.CropImage.Droid.Resource.String.abc_search_hint = global::LacosDaGI.Droid.Resource.String.abc_search_hint;
+			global::Xamarians.CropImage.Droid.Resource.String.abc_searchview_description_clear = global::LacosDaGI.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xamarians.CropImage.Droid.Resource.String.abc_searchview_description_query = global::LacosDaGI.Droid.Resource.String.abc_searchview_description_query;
+			global::Xamarians.CropImage.Droid.Resource.String.abc_searchview_description_search = global::LacosDaGI.Droid.Resource.String.abc_searchview_description_search;
+			global::Xamarians.CropImage.Droid.Resource.String.abc_searchview_description_submit = global::LacosDaGI.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xamarians.CropImage.Droid.Resource.String.abc_searchview_description_voice = global::LacosDaGI.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xamarians.CropImage.Droid.Resource.String.abc_shareactionprovider_share_with = global::LacosDaGI.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xamarians.CropImage.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::LacosDaGI.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xamarians.CropImage.Droid.Resource.String.abc_toolbar_collapse_description = global::LacosDaGI.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarians.CropImage.Droid.Resource.String.appbar_scrolling_view_behavior = global::LacosDaGI.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xamarians.CropImage.Droid.Resource.String.bottom_sheet_behavior = global::LacosDaGI.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xamarians.CropImage.Droid.Resource.String.character_counter_pattern = global::LacosDaGI.Droid.Resource.String.character_counter_pattern;
+			global::Xamarians.CropImage.Droid.Resource.String.status_bar_notification_info_overflow = global::LacosDaGI.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarians.CropImage.Droid.Resource.Style.AlertDialog_AppCompat = global::LacosDaGI.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xamarians.CropImage.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::LacosDaGI.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarians.CropImage.Droid.Resource.Style.Animation_AppCompat_Dialog = global::LacosDaGI.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xamarians.CropImage.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::LacosDaGI.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xamarians.CropImage.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::LacosDaGI.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::LacosDaGI.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::LacosDaGI.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::LacosDaGI.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::LacosDaGI.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_CardView = global::LacosDaGI.Droid.Resource.Style.Base_CardView;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::LacosDaGI.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::LacosDaGI.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::LacosDaGI.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Theme_AppCompat = global::LacosDaGI.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::LacosDaGI.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::LacosDaGI.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::LacosDaGI.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::LacosDaGI.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::LacosDaGI.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::LacosDaGI.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::LacosDaGI.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::LacosDaGI.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::LacosDaGI.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::LacosDaGI.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::LacosDaGI.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::LacosDaGI.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::LacosDaGI.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::LacosDaGI.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::LacosDaGI.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::LacosDaGI.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::LacosDaGI.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::LacosDaGI.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::LacosDaGI.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::LacosDaGI.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::LacosDaGI.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::LacosDaGI.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::LacosDaGI.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::LacosDaGI.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::LacosDaGI.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::LacosDaGI.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::LacosDaGI.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::LacosDaGI.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::LacosDaGI.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::LacosDaGI.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::LacosDaGI.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::LacosDaGI.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::LacosDaGI.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarians.CropImage.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::LacosDaGI.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarians.CropImage.Droid.Resource.Style.CardView = global::LacosDaGI.Droid.Resource.Style.CardView;
+			global::Xamarians.CropImage.Droid.Resource.Style.CardView_Dark = global::LacosDaGI.Droid.Resource.Style.CardView_Dark;
+			global::Xamarians.CropImage.Droid.Resource.Style.CardView_Light = global::LacosDaGI.Droid.Resource.Style.CardView_Light;
+			global::Xamarians.CropImage.Droid.Resource.Style.Platform_AppCompat = global::LacosDaGI.Droid.Resource.Style.Platform_AppCompat;
+			global::Xamarians.CropImage.Droid.Resource.Style.Platform_AppCompat_Light = global::LacosDaGI.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xamarians.CropImage.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::LacosDaGI.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xamarians.CropImage.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::LacosDaGI.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xamarians.CropImage.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::LacosDaGI.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xamarians.CropImage.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::LacosDaGI.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xamarians.CropImage.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::LacosDaGI.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xamarians.CropImage.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::LacosDaGI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xamarians.CropImage.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::LacosDaGI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xamarians.CropImage.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::LacosDaGI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xamarians.CropImage.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::LacosDaGI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xamarians.CropImage.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::LacosDaGI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xamarians.CropImage.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::LacosDaGI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xamarians.CropImage.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::LacosDaGI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xamarians.CropImage.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::LacosDaGI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xamarians.CropImage.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::LacosDaGI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xamarians.CropImage.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::LacosDaGI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xamarians.CropImage.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::LacosDaGI.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xamarians.CropImage.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::LacosDaGI.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xamarians.CropImage.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::LacosDaGI.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::LacosDaGI.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::LacosDaGI.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_Design_Counter = global::LacosDaGI.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::LacosDaGI.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_Design_Error = global::LacosDaGI.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_Design_Hint = global::LacosDaGI.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::LacosDaGI.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_Design_Tab = global::LacosDaGI.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::LacosDaGI.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::LacosDaGI.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarians.CropImage.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::LacosDaGI.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_AppCompat = global::LacosDaGI.Droid.Resource.Style.Theme_AppCompat;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::LacosDaGI.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_AppCompat_DayNight = global::LacosDaGI.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::LacosDaGI.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::LacosDaGI.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::LacosDaGI.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::LacosDaGI.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::LacosDaGI.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::LacosDaGI.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_AppCompat_Dialog = global::LacosDaGI.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::LacosDaGI.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::LacosDaGI.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::LacosDaGI.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_AppCompat_Light = global::LacosDaGI.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::LacosDaGI.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::LacosDaGI.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::LacosDaGI.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::LacosDaGI.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::LacosDaGI.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::LacosDaGI.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::LacosDaGI.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_Design = global::LacosDaGI.Droid.Resource.Style.Theme_Design;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::LacosDaGI.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_Design_Light = global::LacosDaGI.Droid.Resource.Style.Theme_Design_Light;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::LacosDaGI.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::LacosDaGI.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Theme_Design_NoActionBar = global::LacosDaGI.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.ThemeOverlay_AppCompat = global::LacosDaGI.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xamarians.CropImage.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::LacosDaGI.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::LacosDaGI.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xamarians.CropImage.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::LacosDaGI.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::LacosDaGI.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Button = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_EditText = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_ListView = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_SearchView = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Spinner = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::LacosDaGI.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_Design_AppBarLayout = global::LacosDaGI.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::LacosDaGI.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::LacosDaGI.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::LacosDaGI.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_Design_NavigationView = global::LacosDaGI.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::LacosDaGI.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_Design_Snackbar = global::LacosDaGI.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_Design_TabLayout = global::LacosDaGI.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarians.CropImage.Droid.Resource.Style.Widget_Design_TextInputLayout = global::LacosDaGI.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar = global::LacosDaGI.Droid.Resource.Styleable.ActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_background = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_background;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_displayOptions = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_divider = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_elevation = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_height = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_height;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_homeLayout = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_icon = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_itemPadding = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_logo = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_navigationMode = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_popupTheme = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_subtitle = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_title = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_title;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::LacosDaGI.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBarLayout = global::LacosDaGI.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::LacosDaGI.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionMenuItemView = global::LacosDaGI.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::LacosDaGI.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionMenuView = global::LacosDaGI.Droid.Resource.Styleable.ActionMenuView;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionMode = global::LacosDaGI.Droid.Resource.Styleable.ActionMode;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionMode_background = global::LacosDaGI.Droid.Resource.Styleable.ActionMode_background;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::LacosDaGI.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::LacosDaGI.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionMode_height = global::LacosDaGI.Droid.Resource.Styleable.ActionMode_height;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::LacosDaGI.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::LacosDaGI.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActivityChooserView = global::LacosDaGI.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::LacosDaGI.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::LacosDaGI.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AlertDialog = global::LacosDaGI.Droid.Resource.Styleable.AlertDialog;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AlertDialog_android_layout = global::LacosDaGI.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::LacosDaGI.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::LacosDaGI.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AlertDialog_listLayout = global::LacosDaGI.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::LacosDaGI.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::LacosDaGI.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppBarLayout = global::LacosDaGI.Droid.Resource.Styleable.AppBarLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppBarLayout_android_background = global::LacosDaGI.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppBarLayout_elevation = global::LacosDaGI.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppBarLayout_expanded = global::LacosDaGI.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatImageView = global::LacosDaGI.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatImageView_android_src = global::LacosDaGI.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::LacosDaGI.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTextView = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::LacosDaGI.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ButtonBarLayout = global::LacosDaGI.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::LacosDaGI.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CardView = global::LacosDaGI.Droid.Resource.Styleable.CardView;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CardView_android_minHeight = global::LacosDaGI.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CardView_android_minWidth = global::LacosDaGI.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::LacosDaGI.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CardView_cardCornerRadius = global::LacosDaGI.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CardView_cardElevation = global::LacosDaGI.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CardView_cardMaxElevation = global::LacosDaGI.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::LacosDaGI.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::LacosDaGI.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CardView_contentPadding = global::LacosDaGI.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::LacosDaGI.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::LacosDaGI.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CardView_contentPaddingRight = global::LacosDaGI.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CardView_contentPaddingTop = global::LacosDaGI.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CollapsingToolbarLayout = global::LacosDaGI.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::LacosDaGI.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::LacosDaGI.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::LacosDaGI.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::LacosDaGI.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::LacosDaGI.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::LacosDaGI.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::LacosDaGI.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::LacosDaGI.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::LacosDaGI.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::LacosDaGI.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::LacosDaGI.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::LacosDaGI.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::LacosDaGI.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::LacosDaGI.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CompoundButton = global::LacosDaGI.Droid.Resource.Styleable.CompoundButton;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CompoundButton_android_button = global::LacosDaGI.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CompoundButton_buttonTint = global::LacosDaGI.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::LacosDaGI.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CoordinatorLayout = global::LacosDaGI.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::LacosDaGI.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::LacosDaGI.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.DesignTheme = global::LacosDaGI.Droid.Resource.Styleable.DesignTheme;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::LacosDaGI.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::LacosDaGI.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.DrawerArrowToggle = global::LacosDaGI.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::LacosDaGI.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::LacosDaGI.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::LacosDaGI.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.DrawerArrowToggle_color = global::LacosDaGI.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::LacosDaGI.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::LacosDaGI.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::LacosDaGI.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::LacosDaGI.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.FloatingActionButton = global::LacosDaGI.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::LacosDaGI.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::LacosDaGI.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::LacosDaGI.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.FloatingActionButton_elevation = global::LacosDaGI.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::LacosDaGI.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::LacosDaGI.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::LacosDaGI.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::LacosDaGI.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ForegroundLinearLayout = global::LacosDaGI.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::LacosDaGI.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::LacosDaGI.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::LacosDaGI.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.LinearLayoutCompat = global::LacosDaGI.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::LacosDaGI.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::LacosDaGI.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::LacosDaGI.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::LacosDaGI.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::LacosDaGI.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::LacosDaGI.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::LacosDaGI.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::LacosDaGI.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::LacosDaGI.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::LacosDaGI.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::LacosDaGI.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::LacosDaGI.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::LacosDaGI.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::LacosDaGI.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ListPopupWindow = global::LacosDaGI.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::LacosDaGI.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::LacosDaGI.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuGroup = global::LacosDaGI.Droid.Resource.Styleable.MenuGroup;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::LacosDaGI.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuGroup_android_enabled = global::LacosDaGI.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuGroup_android_id = global::LacosDaGI.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::LacosDaGI.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::LacosDaGI.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuGroup_android_visible = global::LacosDaGI.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuItem = global::LacosDaGI.Droid.Resource.Styleable.MenuItem;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuItem_actionLayout = global::LacosDaGI.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::LacosDaGI.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuItem_actionViewClass = global::LacosDaGI.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::LacosDaGI.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuItem_android_checkable = global::LacosDaGI.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuItem_android_checked = global::LacosDaGI.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuItem_android_enabled = global::LacosDaGI.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuItem_android_icon = global::LacosDaGI.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuItem_android_id = global::LacosDaGI.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::LacosDaGI.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::LacosDaGI.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuItem_android_onClick = global::LacosDaGI.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::LacosDaGI.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuItem_android_title = global::LacosDaGI.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::LacosDaGI.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuItem_android_visible = global::LacosDaGI.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuItem_showAsAction = global::LacosDaGI.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuView = global::LacosDaGI.Droid.Resource.Styleable.MenuView;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuView_android_headerBackground = global::LacosDaGI.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::LacosDaGI.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuView_android_itemBackground = global::LacosDaGI.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::LacosDaGI.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::LacosDaGI.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::LacosDaGI.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::LacosDaGI.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::LacosDaGI.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.NavigationView = global::LacosDaGI.Droid.Resource.Styleable.NavigationView;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.NavigationView_android_background = global::LacosDaGI.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::LacosDaGI.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::LacosDaGI.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.NavigationView_elevation = global::LacosDaGI.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.NavigationView_headerLayout = global::LacosDaGI.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.NavigationView_itemBackground = global::LacosDaGI.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.NavigationView_itemIconTint = global::LacosDaGI.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::LacosDaGI.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.NavigationView_itemTextColor = global::LacosDaGI.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.NavigationView_menu = global::LacosDaGI.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.PopupWindow = global::LacosDaGI.Droid.Resource.Styleable.PopupWindow;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::LacosDaGI.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::LacosDaGI.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.PopupWindowBackgroundState = global::LacosDaGI.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::LacosDaGI.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.RecyclerView = global::LacosDaGI.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.RecyclerView_android_orientation = global::LacosDaGI.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.RecyclerView_layoutManager = global::LacosDaGI.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::LacosDaGI.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.RecyclerView_spanCount = global::LacosDaGI.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::LacosDaGI.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::LacosDaGI.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::LacosDaGI.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SearchView = global::LacosDaGI.Droid.Resource.Styleable.SearchView;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SearchView_android_focusable = global::LacosDaGI.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SearchView_android_imeOptions = global::LacosDaGI.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SearchView_android_inputType = global::LacosDaGI.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SearchView_android_maxWidth = global::LacosDaGI.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SearchView_closeIcon = global::LacosDaGI.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SearchView_commitIcon = global::LacosDaGI.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::LacosDaGI.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SearchView_goIcon = global::LacosDaGI.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::LacosDaGI.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SearchView_layout = global::LacosDaGI.Droid.Resource.Styleable.SearchView_layout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SearchView_queryBackground = global::LacosDaGI.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SearchView_queryHint = global::LacosDaGI.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SearchView_searchHintIcon = global::LacosDaGI.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SearchView_searchIcon = global::LacosDaGI.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SearchView_submitBackground = global::LacosDaGI.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::LacosDaGI.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SearchView_voiceIcon = global::LacosDaGI.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SnackbarLayout = global::LacosDaGI.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::LacosDaGI.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SnackbarLayout_elevation = global::LacosDaGI.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::LacosDaGI.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Spinner = global::LacosDaGI.Droid.Resource.Styleable.Spinner;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::LacosDaGI.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Spinner_android_entries = global::LacosDaGI.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Spinner_android_popupBackground = global::LacosDaGI.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Spinner_android_prompt = global::LacosDaGI.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Spinner_popupTheme = global::LacosDaGI.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SwitchCompat = global::LacosDaGI.Droid.Resource.Styleable.SwitchCompat;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::LacosDaGI.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::LacosDaGI.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::LacosDaGI.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SwitchCompat_showText = global::LacosDaGI.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::LacosDaGI.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::LacosDaGI.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::LacosDaGI.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::LacosDaGI.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::LacosDaGI.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.SwitchCompat_track = global::LacosDaGI.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TabItem = global::LacosDaGI.Droid.Resource.Styleable.TabItem;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TabItem_android_icon = global::LacosDaGI.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TabItem_android_layout = global::LacosDaGI.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TabItem_android_text = global::LacosDaGI.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TabLayout = global::LacosDaGI.Droid.Resource.Styleable.TabLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TabLayout_tabBackground = global::LacosDaGI.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TabLayout_tabContentStart = global::LacosDaGI.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TabLayout_tabGravity = global::LacosDaGI.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::LacosDaGI.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::LacosDaGI.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::LacosDaGI.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::LacosDaGI.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TabLayout_tabMode = global::LacosDaGI.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TabLayout_tabPadding = global::LacosDaGI.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::LacosDaGI.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::LacosDaGI.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::LacosDaGI.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::LacosDaGI.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::LacosDaGI.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::LacosDaGI.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TabLayout_tabTextColor = global::LacosDaGI.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextAppearance = global::LacosDaGI.Droid.Resource.Styleable.TextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::LacosDaGI.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::LacosDaGI.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::LacosDaGI.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::LacosDaGI.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextAppearance_android_textColor = global::LacosDaGI.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextAppearance_android_textSize = global::LacosDaGI.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::LacosDaGI.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextAppearance_android_typeface = global::LacosDaGI.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::LacosDaGI.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextInputLayout = global::LacosDaGI.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextInputLayout_android_hint = global::LacosDaGI.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::LacosDaGI.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::LacosDaGI.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::LacosDaGI.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::LacosDaGI.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::LacosDaGI.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::LacosDaGI.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::LacosDaGI.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::LacosDaGI.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::LacosDaGI.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::LacosDaGI.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar = global::LacosDaGI.Droid.Resource.Styleable.Toolbar;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_android_gravity = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_android_minHeight = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_collapseIcon = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_logo = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_logoDescription = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_navigationIcon = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_popupTheme = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_subtitle = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_title = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_title;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_titleMargins = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.Toolbar_titleTextColor = global::LacosDaGI.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.View = global::LacosDaGI.Droid.Resource.Styleable.View;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.View_android_focusable = global::LacosDaGI.Droid.Resource.Styleable.View_android_focusable;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.View_android_theme = global::LacosDaGI.Droid.Resource.Styleable.View_android_theme;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.View_paddingEnd = global::LacosDaGI.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.View_paddingStart = global::LacosDaGI.Droid.Resource.Styleable.View_paddingStart;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.View_theme = global::LacosDaGI.Droid.Resource.Styleable.View_theme;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ViewBackgroundHelper = global::LacosDaGI.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::LacosDaGI.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::LacosDaGI.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::LacosDaGI.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ViewStubCompat = global::LacosDaGI.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ViewStubCompat_android_id = global::LacosDaGI.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::LacosDaGI.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xamarians.CropImage.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::LacosDaGI.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::LacosDaGI.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::LacosDaGI.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::LacosDaGI.Droid.Resource.Attribute.font;
@@ -8379,10 +9916,13 @@ namespace LacosDaGI.Droid
 			public const int notify_panel_notification_icon_bg = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int tooltip_frame_dark = 2131165300;
+			public const int rotate_button = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int tooltip_frame_light = 2131165301;
+			public const int tooltip_frame_dark = 2131165301;
+			
+			// aapt resource value: 0x7F070076
+			public const int tooltip_frame_light = 2131165302;
 			
 			static Drawable()
 			{
@@ -8512,514 +10052,523 @@ namespace LacosDaGI.Droid
 			public const int buttonPanel = 2131230762;
 			
 			// aapt resource value: 0x7F08002B
-			public const int cancel_action = 2131230763;
+			public const int cancel = 2131230763;
 			
 			// aapt resource value: 0x7F08002C
-			public const int center = 2131230764;
+			public const int cancel_action = 2131230764;
 			
 			// aapt resource value: 0x7F08002D
-			public const int center_horizontal = 2131230765;
+			public const int center = 2131230765;
 			
 			// aapt resource value: 0x7F08002E
-			public const int center_vertical = 2131230766;
+			public const int center_horizontal = 2131230766;
 			
 			// aapt resource value: 0x7F08002F
-			public const int checkbox = 2131230767;
+			public const int center_vertical = 2131230767;
 			
 			// aapt resource value: 0x7F080030
-			public const int chronometer = 2131230768;
+			public const int checkbox = 2131230768;
 			
 			// aapt resource value: 0x7F080031
-			public const int clip_horizontal = 2131230769;
+			public const int chronometer = 2131230769;
 			
 			// aapt resource value: 0x7F080032
-			public const int clip_vertical = 2131230770;
+			public const int clip_horizontal = 2131230770;
 			
 			// aapt resource value: 0x7F080033
-			public const int collapseActionView = 2131230771;
+			public const int clip_vertical = 2131230771;
 			
 			// aapt resource value: 0x7F080034
-			public const int container = 2131230772;
+			public const int collapseActionView = 2131230772;
 			
 			// aapt resource value: 0x7F080035
-			public const int content = 2131230773;
+			public const int container = 2131230773;
 			
 			// aapt resource value: 0x7F080036
-			public const int contentPanel = 2131230774;
+			public const int content = 2131230774;
 			
 			// aapt resource value: 0x7F080037
-			public const int coordinator = 2131230775;
+			public const int contentPanel = 2131230775;
+			
+			// aapt resource value: 0x7F080038
+			public const int coordinator = 2131230776;
 			
 			// aapt resource value: 0x7F080001
 			public const int CTRL = 2131230721;
 			
-			// aapt resource value: 0x7F080038
-			public const int custom = 2131230776;
-			
 			// aapt resource value: 0x7F080039
-			public const int customPanel = 2131230777;
+			public const int custom = 2131230777;
 			
 			// aapt resource value: 0x7F08003A
-			public const int decor_content_parent = 2131230778;
+			public const int customPanel = 2131230778;
 			
 			// aapt resource value: 0x7F08003B
-			public const int default_activity_button = 2131230779;
+			public const int decor_content_parent = 2131230779;
 			
 			// aapt resource value: 0x7F08003C
-			public const int design_bottom_sheet = 2131230780;
+			public const int default_activity_button = 2131230780;
 			
 			// aapt resource value: 0x7F08003D
-			public const int design_menu_item_action_area = 2131230781;
+			public const int design_bottom_sheet = 2131230781;
 			
 			// aapt resource value: 0x7F08003E
-			public const int design_menu_item_action_area_stub = 2131230782;
+			public const int design_menu_item_action_area = 2131230782;
 			
 			// aapt resource value: 0x7F08003F
-			public const int design_menu_item_text = 2131230783;
+			public const int design_menu_item_action_area_stub = 2131230783;
 			
 			// aapt resource value: 0x7F080040
-			public const int design_navigation_view = 2131230784;
+			public const int design_menu_item_text = 2131230784;
 			
 			// aapt resource value: 0x7F080041
-			public const int disableHome = 2131230785;
+			public const int design_navigation_view = 2131230785;
 			
 			// aapt resource value: 0x7F080042
-			public const int edit_query = 2131230786;
+			public const int disableHome = 2131230786;
 			
 			// aapt resource value: 0x7F080043
-			public const int end = 2131230787;
+			public const int done = 2131230787;
 			
 			// aapt resource value: 0x7F080044
-			public const int end_padder = 2131230788;
+			public const int edit_query = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int enterAlways = 2131230789;
+			public const int end = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int enterAlwaysCollapsed = 2131230790;
+			public const int end_padder = 2131230790;
 			
 			// aapt resource value: 0x7F080047
-			public const int exitUntilCollapsed = 2131230791;
-			
-			// aapt resource value: 0x7F080049
-			public const int expanded_menu = 2131230793;
+			public const int enterAlways = 2131230791;
 			
 			// aapt resource value: 0x7F080048
-			public const int expand_activities_button = 2131230792;
+			public const int enterAlwaysCollapsed = 2131230792;
 			
-			// aapt resource value: 0x7F08004A
-			public const int fill = 2131230794;
-			
-			// aapt resource value: 0x7F08004D
-			public const int filled = 2131230797;
+			// aapt resource value: 0x7F080049
+			public const int exitUntilCollapsed = 2131230793;
 			
 			// aapt resource value: 0x7F08004B
-			public const int fill_horizontal = 2131230795;
+			public const int expanded_menu = 2131230795;
+			
+			// aapt resource value: 0x7F08004A
+			public const int expand_activities_button = 2131230794;
 			
 			// aapt resource value: 0x7F08004C
-			public const int fill_vertical = 2131230796;
-			
-			// aapt resource value: 0x7F08004E
-			public const int @fixed = 2131230798;
+			public const int fill = 2131230796;
 			
 			// aapt resource value: 0x7F08004F
-			public const int flyoutcontent_appbar = 2131230799;
+			public const int filled = 2131230799;
+			
+			// aapt resource value: 0x7F08004D
+			public const int fill_horizontal = 2131230797;
+			
+			// aapt resource value: 0x7F08004E
+			public const int fill_vertical = 2131230798;
 			
 			// aapt resource value: 0x7F080050
-			public const int flyoutcontent_recycler = 2131230800;
+			public const int @fixed = 2131230800;
 			
 			// aapt resource value: 0x7F080051
-			public const int forever = 2131230801;
+			public const int flyoutcontent_appbar = 2131230801;
+			
+			// aapt resource value: 0x7F080052
+			public const int flyoutcontent_recycler = 2131230802;
+			
+			// aapt resource value: 0x7F080053
+			public const int forever = 2131230803;
 			
 			// aapt resource value: 0x7F080002
 			public const int FUNCTION = 2131230722;
 			
-			// aapt resource value: 0x7F080052
-			public const int ghost_view = 2131230802;
-			
-			// aapt resource value: 0x7F080053
-			public const int group_divider = 2131230803;
-			
 			// aapt resource value: 0x7F080054
-			public const int home = 2131230804;
+			public const int ghost_view = 2131230804;
 			
 			// aapt resource value: 0x7F080055
-			public const int homeAsUp = 2131230805;
+			public const int group_divider = 2131230805;
 			
 			// aapt resource value: 0x7F080056
-			public const int icon = 2131230806;
+			public const int home = 2131230806;
 			
 			// aapt resource value: 0x7F080057
-			public const int icon_group = 2131230807;
+			public const int homeAsUp = 2131230807;
 			
 			// aapt resource value: 0x7F080058
-			public const int ifRoom = 2131230808;
+			public const int icon = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int image = 2131230809;
+			public const int icon_group = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int info = 2131230810;
+			public const int ifRoom = 2131230810;
 			
 			// aapt resource value: 0x7F08005B
-			public const int italic = 2131230811;
+			public const int image = 2131230811;
 			
 			// aapt resource value: 0x7F08005C
-			public const int item_touch_helper_previous_elevation = 2131230812;
+			public const int info = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int labeled = 2131230813;
+			public const int italic = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int largeLabel = 2131230814;
+			public const int item_touch_helper_previous_elevation = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int left = 2131230815;
+			public const int labeled = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int line1 = 2131230816;
+			public const int largeLabel = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int line3 = 2131230817;
+			public const int left = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int listMode = 2131230818;
+			public const int line1 = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int list_item = 2131230819;
+			public const int line3 = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int main_appbar = 2131230820;
+			public const int listMode = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int main_tablayout = 2131230821;
+			public const int list_item = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int main_toolbar = 2131230822;
+			public const int main_appbar = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int main_viewpager = 2131230823;
+			public const int main_tablayout = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int masked = 2131230824;
+			public const int main_toolbar = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int media_actions = 2131230825;
+			public const int main_viewpager = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int message = 2131230826;
+			public const int masked = 2131230826;
+			
+			// aapt resource value: 0x7F08006B
+			public const int media_actions = 2131230827;
+			
+			// aapt resource value: 0x7F08006C
+			public const int message = 2131230828;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
-			// aapt resource value: 0x7F08006B
-			public const int middle = 2131230827;
-			
-			// aapt resource value: 0x7F08006C
-			public const int mini = 2131230828;
-			
 			// aapt resource value: 0x7F08006D
-			public const int mtrl_child_content_container = 2131230829;
+			public const int middle = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int mtrl_internal_children_alpha_tag = 2131230830;
+			public const int mini = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int multiply = 2131230831;
+			public const int mtrl_child_content_container = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int navigation_header_container = 2131230832;
+			public const int mtrl_internal_children_alpha_tag = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int never = 2131230833;
+			public const int multiply = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int none = 2131230834;
+			public const int navigation_header_container = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int normal = 2131230835;
+			public const int never = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int notification_background = 2131230836;
+			public const int none = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int notification_main_column = 2131230837;
+			public const int normal = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int notification_main_column_container = 2131230838;
+			public const int notification_background = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int outline = 2131230839;
+			public const int notification_main_column = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int parallax = 2131230840;
+			public const int notification_main_column_container = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int parentPanel = 2131230841;
+			public const int outline = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int parent_matrix = 2131230842;
+			public const int parallax = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int pin = 2131230843;
+			public const int parentPanel = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int progress_circular = 2131230844;
+			public const int parent_matrix = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int progress_horizontal = 2131230845;
+			public const int pin = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int radio = 2131230846;
+			public const int progress_circular = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int right = 2131230847;
+			public const int progress_horizontal = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int right_icon = 2131230848;
+			public const int radio = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int right_side = 2131230849;
+			public const int right = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int save_image_matrix = 2131230850;
+			public const int right_icon = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int save_non_transition_alpha = 2131230851;
+			public const int right_side = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int save_scale_type = 2131230852;
+			public const int rotateLeft = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int screen = 2131230853;
+			public const int save_image_matrix = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int scroll = 2131230854;
-			
-			// aapt resource value: 0x7F08008A
-			public const int scrollable = 2131230858;
+			public const int save_non_transition_alpha = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int scrollIndicatorDown = 2131230855;
+			public const int save_scale_type = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int scrollIndicatorUp = 2131230856;
+			public const int screen = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int scrollView = 2131230857;
-			
-			// aapt resource value: 0x7F08008B
-			public const int search_badge = 2131230859;
-			
-			// aapt resource value: 0x7F08008C
-			public const int search_bar = 2131230860;
+			public const int scroll = 2131230857;
 			
 			// aapt resource value: 0x7F08008D
-			public const int search_button = 2131230861;
+			public const int scrollable = 2131230861;
+			
+			// aapt resource value: 0x7F08008A
+			public const int scrollIndicatorDown = 2131230858;
+			
+			// aapt resource value: 0x7F08008B
+			public const int scrollIndicatorUp = 2131230859;
+			
+			// aapt resource value: 0x7F08008C
+			public const int scrollView = 2131230860;
 			
 			// aapt resource value: 0x7F08008E
-			public const int search_close_btn = 2131230862;
+			public const int search_badge = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int search_edit_frame = 2131230863;
+			public const int search_bar = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int search_go_btn = 2131230864;
+			public const int search_button = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int search_mag_icon = 2131230865;
+			public const int search_close_btn = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int search_plate = 2131230866;
+			public const int search_edit_frame = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int search_src_text = 2131230867;
+			public const int search_go_btn = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int search_voice_btn = 2131230868;
-			
-			// aapt resource value: 0x7F080096
-			public const int selected = 2131230870;
+			public const int search_mag_icon = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int select_dialog_listview = 2131230869;
+			public const int search_plate = 2131230869;
+			
+			// aapt resource value: 0x7F080096
+			public const int search_src_text = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int shellcontent_appbar = 2131230871;
+			public const int search_voice_btn = 2131230871;
+			
+			// aapt resource value: 0x7F080099
+			public const int selected = 2131230873;
 			
 			// aapt resource value: 0x7F080098
-			public const int shellcontent_toolbar = 2131230872;
+			public const int select_dialog_listview = 2131230872;
+			
+			// aapt resource value: 0x7F08009A
+			public const int shellcontent_appbar = 2131230874;
+			
+			// aapt resource value: 0x7F08009B
+			public const int shellcontent_toolbar = 2131230875;
 			
 			// aapt resource value: 0x7F080004
 			public const int SHIFT = 2131230724;
 			
-			// aapt resource value: 0x7F080099
-			public const int shortcut = 2131230873;
-			
-			// aapt resource value: 0x7F08009A
-			public const int showCustom = 2131230874;
-			
-			// aapt resource value: 0x7F08009B
-			public const int showHome = 2131230875;
-			
 			// aapt resource value: 0x7F08009C
-			public const int showTitle = 2131230876;
+			public const int shortcut = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int sliding_tabs = 2131230877;
+			public const int showCustom = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int smallLabel = 2131230878;
+			public const int showHome = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int snackbar_action = 2131230879;
+			public const int showTitle = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int snackbar_text = 2131230880;
+			public const int sliding_tabs = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int snap = 2131230881;
+			public const int smallLabel = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int snapMargins = 2131230882;
+			public const int snackbar_action = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int spacer = 2131230883;
+			public const int snackbar_text = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int splash = 2131230884;
+			public const int snap = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int split_action_bar = 2131230885;
+			public const int snapMargins = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int src_atop = 2131230886;
+			public const int spacer = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int src_in = 2131230887;
+			public const int splash = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int src_over = 2131230888;
+			public const int split_action_bar = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int start = 2131230889;
+			public const int src_atop = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int status_bar_latest_event_content = 2131230890;
+			public const int src_in = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int stretch = 2131230891;
+			public const int src_over = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int submenuarrow = 2131230892;
+			public const int start = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int submit_area = 2131230893;
+			public const int status_bar_latest_event_content = 2131230893;
+			
+			// aapt resource value: 0x7F0800AE
+			public const int stretch = 2131230894;
+			
+			// aapt resource value: 0x7F0800AF
+			public const int submenuarrow = 2131230895;
+			
+			// aapt resource value: 0x7F0800B0
+			public const int submit_area = 2131230896;
 			
 			// aapt resource value: 0x7F080005
 			public const int SYM = 2131230725;
 			
-			// aapt resource value: 0x7F0800AE
-			public const int tabMode = 2131230894;
-			
-			// aapt resource value: 0x7F0800AF
-			public const int tag_transition_group = 2131230895;
-			
-			// aapt resource value: 0x7F0800B0
-			public const int tag_unhandled_key_event_manager = 2131230896;
-			
 			// aapt resource value: 0x7F0800B1
-			public const int tag_unhandled_key_listeners = 2131230897;
+			public const int tabMode = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int text = 2131230898;
+			public const int tag_transition_group = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int text2 = 2131230899;
-			
-			// aapt resource value: 0x7F0800B8
-			public const int textinput_counter = 2131230904;
-			
-			// aapt resource value: 0x7F0800B9
-			public const int textinput_error = 2131230905;
-			
-			// aapt resource value: 0x7F0800BA
-			public const int textinput_helper_text = 2131230906;
+			public const int tag_unhandled_key_event_manager = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int textSpacerNoButtons = 2131230900;
+			public const int tag_unhandled_key_listeners = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int textSpacerNoTitle = 2131230901;
+			public const int text = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int textStart = 2131230902;
-			
-			// aapt resource value: 0x7F0800B7
-			public const int text_input_password_toggle = 2131230903;
+			public const int text2 = 2131230902;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int time = 2131230907;
+			public const int textinput_counter = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int title = 2131230908;
+			public const int textinput_error = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int titleDividerNoCustom = 2131230909;
+			public const int textinput_helper_text = 2131230909;
+			
+			// aapt resource value: 0x7F0800B7
+			public const int textSpacerNoButtons = 2131230903;
+			
+			// aapt resource value: 0x7F0800B8
+			public const int textSpacerNoTitle = 2131230904;
+			
+			// aapt resource value: 0x7F0800B9
+			public const int textStart = 2131230905;
+			
+			// aapt resource value: 0x7F0800BA
+			public const int text_input_password_toggle = 2131230906;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int title_template = 2131230910;
+			public const int time = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int toolbar = 2131230911;
+			public const int title = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int top = 2131230912;
+			public const int titleDividerNoCustom = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int topPanel = 2131230913;
+			public const int title_template = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int touch_outside = 2131230914;
+			public const int toolbar = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int transition_current_scene = 2131230915;
+			public const int top = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int transition_layout_save = 2131230916;
+			public const int topPanel = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int transition_position = 2131230917;
+			public const int touch_outside = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int transition_scene_layoutid_cache = 2131230918;
+			public const int transition_current_scene = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int transition_transform = 2131230919;
+			public const int transition_layout_save = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int uniform = 2131230920;
+			public const int transition_position = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int unlabeled = 2131230921;
+			public const int transition_scene_layoutid_cache = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int up = 2131230922;
+			public const int transition_transform = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int useLogo = 2131230923;
+			public const int uniform = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int view_offset_helper = 2131230924;
+			public const int unlabeled = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int visible = 2131230925;
+			public const int up = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int withText = 2131230926;
+			public const int useLogo = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int wrap_content = 2131230927;
+			public const int view_offset_helper = 2131230927;
+			
+			// aapt resource value: 0x7F0800D0
+			public const int visible = 2131230928;
+			
+			// aapt resource value: 0x7F0800D1
+			public const int withText = 2131230929;
+			
+			// aapt resource value: 0x7F0800D2
+			public const int wrap_content = 2131230930;
 			
 			static Id()
 			{
@@ -9211,127 +10760,130 @@ namespace LacosDaGI.Droid
 			public const int browser_actions_context_menu_row = 2131427358;
 			
 			// aapt resource value: 0x7F0B001F
-			public const int design_bottom_navigation_item = 2131427359;
+			public const int cropimage = 2131427359;
 			
 			// aapt resource value: 0x7F0B0020
-			public const int design_bottom_sheet_dialog = 2131427360;
+			public const int design_bottom_navigation_item = 2131427360;
 			
 			// aapt resource value: 0x7F0B0021
-			public const int design_layout_snackbar = 2131427361;
+			public const int design_bottom_sheet_dialog = 2131427361;
 			
 			// aapt resource value: 0x7F0B0022
-			public const int design_layout_snackbar_include = 2131427362;
+			public const int design_layout_snackbar = 2131427362;
 			
 			// aapt resource value: 0x7F0B0023
-			public const int design_layout_tab_icon = 2131427363;
+			public const int design_layout_snackbar_include = 2131427363;
 			
 			// aapt resource value: 0x7F0B0024
-			public const int design_layout_tab_text = 2131427364;
+			public const int design_layout_tab_icon = 2131427364;
 			
 			// aapt resource value: 0x7F0B0025
-			public const int design_menu_item_action_area = 2131427365;
+			public const int design_layout_tab_text = 2131427365;
 			
 			// aapt resource value: 0x7F0B0026
-			public const int design_navigation_item = 2131427366;
+			public const int design_menu_item_action_area = 2131427366;
 			
 			// aapt resource value: 0x7F0B0027
-			public const int design_navigation_item_header = 2131427367;
+			public const int design_navigation_item = 2131427367;
 			
 			// aapt resource value: 0x7F0B0028
-			public const int design_navigation_item_separator = 2131427368;
+			public const int design_navigation_item_header = 2131427368;
 			
 			// aapt resource value: 0x7F0B0029
-			public const int design_navigation_item_subheader = 2131427369;
+			public const int design_navigation_item_separator = 2131427369;
 			
 			// aapt resource value: 0x7F0B002A
-			public const int design_navigation_menu = 2131427370;
+			public const int design_navigation_item_subheader = 2131427370;
 			
 			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_menu_item = 2131427371;
+			public const int design_navigation_menu = 2131427371;
 			
 			// aapt resource value: 0x7F0B002C
-			public const int design_text_input_password_icon = 2131427372;
+			public const int design_navigation_menu_item = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public const int FlyoutContent = 2131427373;
+			public const int design_text_input_password_icon = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int mtrl_layout_snackbar = 2131427374;
+			public const int FlyoutContent = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int mtrl_layout_snackbar_include = 2131427375;
+			public const int mtrl_layout_snackbar = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int notification_action = 2131427376;
+			public const int mtrl_layout_snackbar_include = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int notification_action_tombstone = 2131427377;
+			public const int notification_action = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int notification_media_action = 2131427378;
+			public const int notification_action_tombstone = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int notification_media_cancel_action = 2131427379;
+			public const int notification_media_action = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int notification_template_big_media = 2131427380;
+			public const int notification_media_cancel_action = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int notification_template_big_media_custom = 2131427381;
+			public const int notification_template_big_media = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int notification_template_big_media_narrow = 2131427382;
+			public const int notification_template_big_media_custom = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int notification_template_big_media_narrow_custom = 2131427383;
+			public const int notification_template_big_media_narrow = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int notification_template_custom_big = 2131427384;
+			public const int notification_template_big_media_narrow_custom = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int notification_template_icon_group = 2131427385;
+			public const int notification_template_custom_big = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int notification_template_lines_media = 2131427386;
+			public const int notification_template_icon_group = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int notification_template_media = 2131427387;
+			public const int notification_template_lines_media = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int notification_template_media_custom = 2131427388;
+			public const int notification_template_media = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int notification_template_part_chronometer = 2131427389;
+			public const int notification_template_media_custom = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int notification_template_part_time = 2131427390;
+			public const int notification_template_part_chronometer = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int RootLayout = 2131427391;
+			public const int notification_template_part_time = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int select_dialog_item_material = 2131427392;
+			public const int RootLayout = 2131427392;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int select_dialog_multichoice_material = 2131427393;
+			public const int select_dialog_item_material = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int select_dialog_singlechoice_material = 2131427394;
+			public const int select_dialog_multichoice_material = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int ShellContent = 2131427395;
+			public const int select_dialog_singlechoice_material = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int Splash = 2131427396;
+			public const int ShellContent = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int support_simple_spinner_dropdown_item = 2131427397;
+			public const int Splash = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int Tabbar = 2131427398;
+			public const int support_simple_spinner_dropdown_item = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int Toolbar = 2131427399;
+			public const int Tabbar = 2131427399;
+			
+			// aapt resource value: 0x7F0B0048
+			public const int Toolbar = 2131427400;
 			
 			static Layout()
 			{
@@ -9368,170 +10920,176 @@ namespace LacosDaGI.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7F0D0000
-			public const int abc_action_bar_home_description = 2131558400;
-			
-			// aapt resource value: 0x7F0D0001
-			public const int abc_action_bar_up_description = 2131558401;
-			
 			// aapt resource value: 0x7F0D0002
-			public const int abc_action_menu_overflow_description = 2131558402;
+			public const int abc_action_bar_home_description = 2131558402;
 			
 			// aapt resource value: 0x7F0D0003
-			public const int abc_action_mode_done = 2131558403;
-			
-			// aapt resource value: 0x7F0D0005
-			public const int abc_activitychooserview_choose_application = 2131558405;
+			public const int abc_action_bar_up_description = 2131558403;
 			
 			// aapt resource value: 0x7F0D0004
-			public const int abc_activity_chooser_view_see_all = 2131558404;
+			public const int abc_action_menu_overflow_description = 2131558404;
 			
-			// aapt resource value: 0x7F0D0006
-			public const int abc_capital_off = 2131558406;
+			// aapt resource value: 0x7F0D0005
+			public const int abc_action_mode_done = 2131558405;
 			
 			// aapt resource value: 0x7F0D0007
-			public const int abc_capital_on = 2131558407;
+			public const int abc_activitychooserview_choose_application = 2131558407;
+			
+			// aapt resource value: 0x7F0D0006
+			public const int abc_activity_chooser_view_see_all = 2131558406;
 			
 			// aapt resource value: 0x7F0D0008
-			public const int abc_font_family_body_1_material = 2131558408;
+			public const int abc_capital_off = 2131558408;
 			
 			// aapt resource value: 0x7F0D0009
-			public const int abc_font_family_body_2_material = 2131558409;
+			public const int abc_capital_on = 2131558409;
 			
 			// aapt resource value: 0x7F0D000A
-			public const int abc_font_family_button_material = 2131558410;
+			public const int abc_font_family_body_1_material = 2131558410;
 			
 			// aapt resource value: 0x7F0D000B
-			public const int abc_font_family_caption_material = 2131558411;
+			public const int abc_font_family_body_2_material = 2131558411;
 			
 			// aapt resource value: 0x7F0D000C
-			public const int abc_font_family_display_1_material = 2131558412;
+			public const int abc_font_family_button_material = 2131558412;
 			
 			// aapt resource value: 0x7F0D000D
-			public const int abc_font_family_display_2_material = 2131558413;
+			public const int abc_font_family_caption_material = 2131558413;
 			
 			// aapt resource value: 0x7F0D000E
-			public const int abc_font_family_display_3_material = 2131558414;
+			public const int abc_font_family_display_1_material = 2131558414;
 			
 			// aapt resource value: 0x7F0D000F
-			public const int abc_font_family_display_4_material = 2131558415;
+			public const int abc_font_family_display_2_material = 2131558415;
 			
 			// aapt resource value: 0x7F0D0010
-			public const int abc_font_family_headline_material = 2131558416;
+			public const int abc_font_family_display_3_material = 2131558416;
 			
 			// aapt resource value: 0x7F0D0011
-			public const int abc_font_family_menu_material = 2131558417;
+			public const int abc_font_family_display_4_material = 2131558417;
 			
 			// aapt resource value: 0x7F0D0012
-			public const int abc_font_family_subhead_material = 2131558418;
+			public const int abc_font_family_headline_material = 2131558418;
 			
 			// aapt resource value: 0x7F0D0013
-			public const int abc_font_family_title_material = 2131558419;
+			public const int abc_font_family_menu_material = 2131558419;
 			
 			// aapt resource value: 0x7F0D0014
-			public const int abc_menu_alt_shortcut_label = 2131558420;
+			public const int abc_font_family_subhead_material = 2131558420;
 			
 			// aapt resource value: 0x7F0D0015
-			public const int abc_menu_ctrl_shortcut_label = 2131558421;
+			public const int abc_font_family_title_material = 2131558421;
 			
 			// aapt resource value: 0x7F0D0016
-			public const int abc_menu_delete_shortcut_label = 2131558422;
+			public const int abc_menu_alt_shortcut_label = 2131558422;
 			
 			// aapt resource value: 0x7F0D0017
-			public const int abc_menu_enter_shortcut_label = 2131558423;
+			public const int abc_menu_ctrl_shortcut_label = 2131558423;
 			
 			// aapt resource value: 0x7F0D0018
-			public const int abc_menu_function_shortcut_label = 2131558424;
+			public const int abc_menu_delete_shortcut_label = 2131558424;
 			
 			// aapt resource value: 0x7F0D0019
-			public const int abc_menu_meta_shortcut_label = 2131558425;
+			public const int abc_menu_enter_shortcut_label = 2131558425;
 			
 			// aapt resource value: 0x7F0D001A
-			public const int abc_menu_shift_shortcut_label = 2131558426;
+			public const int abc_menu_function_shortcut_label = 2131558426;
 			
 			// aapt resource value: 0x7F0D001B
-			public const int abc_menu_space_shortcut_label = 2131558427;
+			public const int abc_menu_meta_shortcut_label = 2131558427;
 			
 			// aapt resource value: 0x7F0D001C
-			public const int abc_menu_sym_shortcut_label = 2131558428;
+			public const int abc_menu_shift_shortcut_label = 2131558428;
 			
 			// aapt resource value: 0x7F0D001D
-			public const int abc_prepend_shortcut_label = 2131558429;
-			
-			// aapt resource value: 0x7F0D001F
-			public const int abc_searchview_description_clear = 2131558431;
-			
-			// aapt resource value: 0x7F0D0020
-			public const int abc_searchview_description_query = 2131558432;
-			
-			// aapt resource value: 0x7F0D0021
-			public const int abc_searchview_description_search = 2131558433;
-			
-			// aapt resource value: 0x7F0D0022
-			public const int abc_searchview_description_submit = 2131558434;
-			
-			// aapt resource value: 0x7F0D0023
-			public const int abc_searchview_description_voice = 2131558435;
+			public const int abc_menu_space_shortcut_label = 2131558429;
 			
 			// aapt resource value: 0x7F0D001E
-			public const int abc_search_hint = 2131558430;
+			public const int abc_menu_sym_shortcut_label = 2131558430;
+			
+			// aapt resource value: 0x7F0D001F
+			public const int abc_prepend_shortcut_label = 2131558431;
+			
+			// aapt resource value: 0x7F0D0021
+			public const int abc_searchview_description_clear = 2131558433;
+			
+			// aapt resource value: 0x7F0D0022
+			public const int abc_searchview_description_query = 2131558434;
+			
+			// aapt resource value: 0x7F0D0023
+			public const int abc_searchview_description_search = 2131558435;
 			
 			// aapt resource value: 0x7F0D0024
-			public const int abc_shareactionprovider_share_with = 2131558436;
+			public const int abc_searchview_description_submit = 2131558436;
 			
 			// aapt resource value: 0x7F0D0025
-			public const int abc_shareactionprovider_share_with_application = 2131558437;
+			public const int abc_searchview_description_voice = 2131558437;
+			
+			// aapt resource value: 0x7F0D0020
+			public const int abc_search_hint = 2131558432;
 			
 			// aapt resource value: 0x7F0D0026
-			public const int abc_toolbar_collapse_description = 2131558438;
+			public const int abc_shareactionprovider_share_with = 2131558438;
 			
 			// aapt resource value: 0x7F0D0027
-			public const int appbar_scrolling_view_behavior = 2131558439;
+			public const int abc_shareactionprovider_share_with_application = 2131558439;
 			
 			// aapt resource value: 0x7F0D0028
-			public const int bottom_sheet_behavior = 2131558440;
+			public const int abc_toolbar_collapse_description = 2131558440;
 			
 			// aapt resource value: 0x7F0D0029
-			public const int character_counter_content_description = 2131558441;
+			public const int appbar_scrolling_view_behavior = 2131558441;
+			
+			// aapt resource value: 0x7F0D0000
+			public const int ApplicationName = 2131558400;
 			
 			// aapt resource value: 0x7F0D002A
-			public const int character_counter_pattern = 2131558442;
+			public const int bottom_sheet_behavior = 2131558442;
 			
 			// aapt resource value: 0x7F0D002B
-			public const int fab_transformation_scrim_behavior = 2131558443;
+			public const int character_counter_content_description = 2131558443;
 			
 			// aapt resource value: 0x7F0D002C
-			public const int fab_transformation_sheet_behavior = 2131558444;
+			public const int character_counter_pattern = 2131558444;
 			
 			// aapt resource value: 0x7F0D002D
-			public const int hide_bottom_view_on_scroll_behavior = 2131558445;
+			public const int fab_transformation_scrim_behavior = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int mtrl_chip_close_icon_content_description = 2131558446;
+			public const int fab_transformation_sheet_behavior = 2131558446;
+			
+			// aapt resource value: 0x7F0D0001
+			public const int Hello = 2131558401;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int overflow_tab_title = 2131558447;
+			public const int hide_bottom_view_on_scroll_behavior = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int password_toggle_content_description = 2131558448;
+			public const int mtrl_chip_close_icon_content_description = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int path_password_eye = 2131558449;
+			public const int overflow_tab_title = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int path_password_eye_mask_strike_through = 2131558450;
+			public const int password_toggle_content_description = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int path_password_eye_mask_visible = 2131558451;
+			public const int path_password_eye = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int path_password_strike_through = 2131558452;
+			public const int path_password_eye_mask_strike_through = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int search_menu_title = 2131558453;
+			public const int path_password_eye_mask_visible = 2131558453;
 			
 			// aapt resource value: 0x7F0D0036
-			public const int status_bar_notification_info_overflow = 2131558454;
+			public const int path_password_strike_through = 2131558454;
+			
+			// aapt resource value: 0x7F0D0037
+			public const int search_menu_title = 2131558455;
+			
+			// aapt resource value: 0x7F0D0038
+			public const int status_bar_notification_info_overflow = 2131558456;
 			
 			static String()
 			{

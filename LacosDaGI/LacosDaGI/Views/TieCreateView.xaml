@@ -8,41 +8,50 @@
         <models:TieCreateViewModel />
     </ContentPage.BindingContext>
     <ContentPage.Content>
-        <Grid Padding="10">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
+        <Grid Padding="5">
             <Grid.RowDefinitions>
-                <RowDefinition Height="100" />
-                <RowDefinition Height="50" />
-                <RowDefinition Height="50" />
-                <RowDefinition Height="100" />
-                <RowDefinition Height="50" />
-                <RowDefinition Height="50" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="120" />
             </Grid.RowDefinitions>
 
-            <Label Grid.Row="0" Grid.ColumnSpan="2" FontSize="Body" FontAttributes="Bold">
-                <Label.FormattedText>
-                    <FormattedString>
-                        <Span Text="Abaixo, preencha os dados para " />
-                        <Span Text="{Binding Editing, Converter={StaticResource CreateEdit}}" />
-                        <Span Text=" o laço no banco de dados!" />
-                    </FormattedString>
-                </Label.FormattedText>
-            </Label>
+            <Grid Padding="3" Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="80" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="100" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
 
-            <Label Grid.Row="1" Grid.Column="0" Text="Nome" />
-            <controls:Entry Grid.Row="1" Grid.Column="1" Text="{Binding Name}" />
+                <Label Grid.Row="0" Grid.ColumnSpan="2" FontSize="Body" FontAttributes="Bold">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Abaixo, preencha os dados para " />
+                            <Span Text="{Binding Editing, Converter={StaticResource CreateEdit}}" />
+                            <Span Text=" o laço no banco de dados!" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
 
-            <Label Grid.Row="2" Grid.Column="0" Text="Descrição" />
-            <controls:Entry Grid.Row="2" Grid.Column="1" Text="{Binding Description}" />
-            
-            <Image Grid.Row="3" Grid.ColumnSpan="2" Source="{Binding Image, Converter={StaticResource BufferToImage}}" />
-            
-            <Button Grid.Row="4" Grid.ColumnSpan="2" Text="Definir Imagem" Command="{Binding PickImageCommand}" />
-            <Button Grid.Row="5" Grid.Column="0" Text="Cadastrar" Command="{Binding CreateTieCommand}" />
-            <Button Grid.Row="5" Grid.Column="1" Text="Limpar campos" Command="{Binding ResetFieldsCommand}" />
+                <Label Grid.Row="1" Grid.Column="0" Text="Nome" VerticalOptions="Center" HorizontalOptions="End" />
+                <controls:Entry CornerRadius="0" Grid.Row="1" Grid.Column="1" Text="{Binding Name}" />
+
+                <Label Grid.Row="2" Grid.Column="0" Text="Descrição" VerticalOptions="Center" HorizontalOptions="End" />
+                <controls:Entry  CornerRadius="0" Grid.Row="2" Grid.Column="1" Text="{Binding Description}" />
+
+                <Image Grid.Row="3" Grid.ColumnSpan="2" Aspect="AspectFit" Source="{Binding Image, Converter={StaticResource BufferToImage}}" />
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Button Grid.Row="0" Text="Definir Imagem" Command="{Binding PickImageCommand}" />
+                <Button Grid.Row="1" Text="Cadastrar" Command="{Binding CreateTieCommand}" />
+                <Button Grid.Row="2" Text="Limpar campos" Command="{Binding ResetFieldsCommand}" />
+            </Grid>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
