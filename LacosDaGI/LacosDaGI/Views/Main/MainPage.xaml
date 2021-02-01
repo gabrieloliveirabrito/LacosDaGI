@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:LacosDaGI.Models"
+             xmlns:views="clr-namespace:LacosDaGI.Views"
+             xmlns:controls="clr-namespace:LacosDaGI.Controls"
+             xmlns:iconize="clr-namespace:Plugin.Iconize;assembly=Plugin.Iconize"
+             x:Class="LacosDaGI.Views.Main.MainPage" NavigationPage.HasNavigationBar="False">
+    <ContentPage.BindingContext>
+        <models:MainViewModel />
+    </ContentPage.BindingContext>
+    <StackLayout>
+        <Frame Padding="24" CornerRadius="0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <iconize:IconImage Icon="mdi-bow-tie" IconColor="White" IconSize="60" VerticalOptions="CenterAndExpand" HorizontalOptions="EndAndExpand" Margin="0,0,5,0" />
+
+                <Label Grid.Column="1" HorizontalTextAlignment="Start" TextColor="White" FontSize="36">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Laços da GI" FontSize="36" FontAttributes="Bold" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </Grid>
+        </Frame>
+        <Label Text="Seja bem-vindo(a)" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Abaixo, você pode acessar as opções de gerenciamento de venda de laços" FontSize="16" Padding="30,0,30,0"/>
+
+        <ScrollView VerticalOptions="FillAndExpand">
+            <Grid VerticalOptions="FillAndExpand" Padding="10,10,10,10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <controls:IconButton Text="Laços" Icon="mdi-bow-tie" Margin="5" Grid.Row="0" Command="{Binding NavigateToCommand}" CommandParameter="{Type views:TieView}" />
+                <controls:IconButton Text="Clientes" Icon="fas-users" Margin="5" Grid.Row="1" Command="{Binding NavigateToCommand}" CommandParameter="{Type views:ClientView}" />
+
+                <controls:IconButton Text="Vendas" Icon="fas-money-bill-alt" Margin="5" Grid.Row="2"  />
+                <controls:IconButton Text="Relatórios" Icon="fas-file-alt" Margin="5" Grid.Row="3"  />
+            </Grid>
+        </ScrollView>
+
+        <Label Text="Desenvolvido por Gabriel Oliveira Brito" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontAttributes="Bold" />
+    </StackLayout>
+
+</ContentPage>
